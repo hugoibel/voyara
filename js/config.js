@@ -19,7 +19,7 @@ const CFG = {
   // 👉 ATAJO: date de alta SOLO en Travelpayouts (travelpayouts.com).
   //    Con una sola cuenta tienes vuelos, hoteles, coches, seguros y eSIM.
   afiliados: {
-    marker: '',            // Travelpayouts: tu "marker" (vuelos, hoteles, coches...)
+    marker: '557823',      // ✅ Travelpayouts (Partner ID) — vuelos, hoteles, coches, seguros, eSIM
     booking_aid: '',       // Booking.com Partner: tu AID
     gyg_partner: '',       // GetYourGuide: tu partner_id
     civitatis_id: '',      // Civitatis: tu código de afiliado
@@ -40,7 +40,7 @@ const CFG = {
 
   // ---------- AJUSTES ----------
   refrescarTasas: true,   // intenta actualizar las tasas al abrir (si falla, usa las de arriba)
-  version: '1.0'
+  version: '1.1'
 };
 
 // ============================================================
