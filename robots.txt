@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://voyara.com/sitemap.xml
+Sitemap: https://hugoibel.github.io/voyara/sitemap.xml

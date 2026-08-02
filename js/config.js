@@ -6,7 +6,7 @@
 const CFG = {
   // ---------- MARCA ----------
   marca: 'Voyara',
-  dominio: 'voyara.com',          // cámbialo cuando compres el dominio
+  dominio: 'hugoibel.github.io/voyara',   // cámbialo cuando compres el dominio propio
   email: 'hola@voyara.com',
   whatsapp: '',                   // ej: '34600112233' (sin +, sin espacios). Vacío = oculta el botón
   instagram: '',                  // ej: 'voyara.viajes'
