@@ -15,8 +15,8 @@ const I18N = {
     // --- Hero + buscador ---
     claim: 'Tu próximo viaje empieza aquí',
     subclaim: 'Comparamos vuelos, hoteles, coches y experiencias de las mejores webs del mundo. Tú eliges, nosotros te llevamos al mejor precio.',
-    t_vuelos: '✈️ Vuelos', t_hoteles: '🏨 Hoteles', t_coches: '🚗 Coches',
-    t_actividades: '🎟️ Experiencias', t_paquetes: '🧳 Viajes completos',
+    t_vuelos: 'Vuelos', t_hoteles: 'Hoteles', t_coches: 'Coches',
+    t_actividades: 'Experiencias', t_paquetes: 'Viajes completos',
     f_origen: 'Desde', f_destino: 'A dónde', f_ciudad: 'Ciudad o destino',
     f_ida: 'Ida', f_vuelta: 'Vuelta', f_entrada: 'Entrada', f_salida: 'Salida',
     f_viajeros: 'Viajeros', f_buscar: 'Buscar', f_solo_ida: 'Solo ida',
@@ -115,10 +115,12 @@ const I18N = {
     aviso_afiliados: 'Aviso: esta web contiene enlaces de afiliado. Si reservas a través de ellos, recibimos una pequeña comisión del proveedor sin ningún coste extra para ti. Es lo que nos permite mantener el buscador gratis.',
     derechos: 'Todos los derechos reservados.',
     // --- Varios ---
+    foto_de: 'Foto de', creditos_fotos: 'Créditos de las fotografías',
+    creditos_intro: 'Las fotografías de esta web proceden de Wikimedia Commons. Se indican su autoría y su licencia, como exigen las licencias Creative Commons.',
     tema: 'Tema', moneda: 'Moneda', idioma: 'Idioma',
     instalar: 'Instalar la app', compartir: 'Compartir', copiado: 'Enlace copiado',
-    cargando: 'Cargando…', viendo_ahora: 'personas viendo esto ahora',
-    ahorro: 'de descuento', quedan: 'Quedan', plazas: 'plazas'
+    cargando: 'Cargando…',
+    ahorro: 'de descuento',
   },
 
   // ══════════════════════ ENGLISH ══════════════════════
@@ -128,8 +130,8 @@ const I18N = {
     nav_paquetes: 'Trips', nav_guias: 'Guides', nav_util: 'Tools', nav_contacto: 'Contact',
     claim: 'Your next trip starts here',
     subclaim: 'We compare flights, hotels, cars and experiences from the best sites in the world. You choose, we take you to the best price.',
-    t_vuelos: '✈️ Flights', t_hoteles: '🏨 Hotels', t_coches: '🚗 Cars',
-    t_actividades: '🎟️ Experiences', t_paquetes: '🧳 Full trips',
+    t_vuelos: 'Flights', t_hoteles: 'Hotels', t_coches: 'Cars',
+    t_actividades: 'Experiences', t_paquetes: 'Full trips',
     f_origen: 'From', f_destino: 'To', f_ciudad: 'City or destination',
     f_ida: 'Depart', f_vuelta: 'Return', f_entrada: 'Check-in', f_salida: 'Check-out',
     f_viajeros: 'Travellers', f_buscar: 'Search', f_solo_ida: 'One way',
@@ -215,10 +217,12 @@ const I18N = {
     l_aviso: 'Affiliate disclosure', l_priv: 'Privacy', l_cookies: 'Cookies', l_terminos: 'Terms',
     aviso_afiliados: 'Disclosure: this site contains affiliate links. If you book through them we receive a small commission from the provider at no extra cost to you. That is what keeps this search engine free.',
     derechos: 'All rights reserved.',
+    foto_de: 'Photo by', creditos_fotos: 'Photography credits',
+    creditos_intro: 'The photographs on this site come from Wikimedia Commons. Author and licence are credited, as the Creative Commons licences require.',
     tema: 'Theme', moneda: 'Currency', idioma: 'Language',
     instalar: 'Install the app', compartir: 'Share', copiado: 'Link copied',
-    cargando: 'Loading…', viendo_ahora: 'people viewing this now',
-    ahorro: 'off', quedan: 'Only', plazas: 'spots left'
+    cargando: 'Loading…',
+    ahorro: 'off',
   },
 
   // ══════════════════════ DEUTSCH ══════════════════════
@@ -228,8 +232,8 @@ const I18N = {
     nav_paquetes: 'Reisen', nav_guias: 'Ratgeber', nav_util: 'Tools', nav_contacto: 'Kontakt',
     claim: 'Deine nächste Reise beginnt hier',
     subclaim: 'Wir vergleichen Flüge, Hotels, Mietwagen und Erlebnisse der besten Portale weltweit. Du wählst, wir bringen dich zum besten Preis.',
-    t_vuelos: '✈️ Flüge', t_hoteles: '🏨 Hotels', t_coches: '🚗 Mietwagen',
-    t_actividades: '🎟️ Erlebnisse', t_paquetes: '🧳 Komplettreisen',
+    t_vuelos: 'Flüge', t_hoteles: 'Hotels', t_coches: 'Mietwagen',
+    t_actividades: 'Erlebnisse', t_paquetes: 'Komplettreisen',
     f_origen: 'Von', f_destino: 'Nach', f_ciudad: 'Stadt oder Reiseziel',
     f_ida: 'Hinflug', f_vuelta: 'Rückflug', f_entrada: 'Anreise', f_salida: 'Abreise',
     f_viajeros: 'Reisende', f_buscar: 'Suchen', f_solo_ida: 'Nur Hinflug',
@@ -315,10 +319,12 @@ const I18N = {
     l_aviso: 'Affiliate-Hinweis', l_priv: 'Datenschutz', l_cookies: 'Cookies', l_terminos: 'AGB',
     aviso_afiliados: 'Hinweis: Diese Seite enthält Affiliate-Links. Wenn du darüber buchst, erhalten wir eine kleine Provision vom Anbieter — ohne Mehrkosten für dich. Das hält diese Suche kostenlos.',
     derechos: 'Alle Rechte vorbehalten.',
+    foto_de: 'Foto von', creditos_fotos: 'Bildnachweise',
+    creditos_intro: 'Die Fotos dieser Website stammen von Wikimedia Commons. Urheber und Lizenz werden genannt, wie es die Creative-Commons-Lizenzen verlangen.',
     tema: 'Design', moneda: 'Währung', idioma: 'Sprache',
     instalar: 'App installieren', compartir: 'Teilen', copiado: 'Link kopiert',
-    cargando: 'Lädt…', viendo_ahora: 'sehen sich das gerade an',
-    ahorro: 'Rabatt', quedan: 'Nur noch', plazas: 'Plätze'
+    cargando: 'Lädt…',
+    ahorro: 'Rabatt',
   },
 
   // ══════════════════════ FRANÇAIS ══════════════════════
@@ -328,8 +334,8 @@ const I18N = {
     nav_paquetes: 'Voyages', nav_guias: 'Guides', nav_util: 'Outils', nav_contacto: 'Contact',
     claim: 'Votre prochain voyage commence ici',
     subclaim: 'Nous comparons vols, hôtels, voitures et expériences sur les meilleurs sites du monde. Vous choisissez, nous vous menons au meilleur prix.',
-    t_vuelos: '✈️ Vols', t_hoteles: '🏨 Hôtels', t_coches: '🚗 Voitures',
-    t_actividades: '🎟️ Expériences', t_paquetes: '🧳 Voyages complets',
+    t_vuelos: 'Vols', t_hoteles: 'Hôtels', t_coches: 'Voitures',
+    t_actividades: 'Expériences', t_paquetes: 'Voyages complets',
     f_origen: 'De', f_destino: 'Vers', f_ciudad: 'Ville ou destination',
     f_ida: 'Aller', f_vuelta: 'Retour', f_entrada: 'Arrivée', f_salida: 'Départ',
     f_viajeros: 'Voyageurs', f_buscar: 'Rechercher', f_solo_ida: 'Aller simple',
@@ -415,10 +421,12 @@ const I18N = {
     l_aviso: 'Divulgation d\'affiliation', l_priv: 'Confidentialité', l_cookies: 'Cookies', l_terminos: 'Conditions',
     aviso_afiliados: 'Avis : ce site contient des liens d\'affiliation. Si vous réservez via ces liens, nous recevons une petite commission du prestataire, sans aucun coût supplémentaire pour vous. C\'est ce qui permet de garder ce moteur gratuit.',
     derechos: 'Tous droits réservés.',
+    foto_de: 'Photo de', creditos_fotos: 'Crédits photographiques',
+    creditos_intro: 'Les photographies de ce site proviennent de Wikimedia Commons. L\'auteur et la licence sont indiqués, comme l\'exigent les licences Creative Commons.',
     tema: 'Thème', moneda: 'Devise', idioma: 'Langue',
     instalar: 'Installer l\'app', compartir: 'Partager', copiado: 'Lien copié',
-    cargando: 'Chargement…', viendo_ahora: 'personnes regardent ceci',
-    ahorro: 'de réduction', quedan: 'Plus que', plazas: 'places'
+    cargando: 'Chargement…',
+    ahorro: 'de réduction',
   },
 
   // ══════════════════════ ITALIANO ══════════════════════
@@ -428,8 +436,8 @@ const I18N = {
     nav_paquetes: 'Viaggi', nav_guias: 'Guide', nav_util: 'Strumenti', nav_contacto: 'Contatti',
     claim: 'Il tuo prossimo viaggio inizia qui',
     subclaim: 'Confrontiamo voli, hotel, auto ed esperienze dai migliori siti del mondo. Tu scegli, noi ti portiamo al prezzo migliore.',
-    t_vuelos: '✈️ Voli', t_hoteles: '🏨 Hotel', t_coches: '🚗 Auto',
-    t_actividades: '🎟️ Esperienze', t_paquetes: '🧳 Viaggi completi',
+    t_vuelos: 'Voli', t_hoteles: 'Hotel', t_coches: 'Auto',
+    t_actividades: 'Esperienze', t_paquetes: 'Viaggi completi',
     f_origen: 'Da', f_destino: 'A', f_ciudad: 'Città o destinazione',
     f_ida: 'Andata', f_vuelta: 'Ritorno', f_entrada: 'Check-in', f_salida: 'Check-out',
     f_viajeros: 'Viaggiatori', f_buscar: 'Cerca', f_solo_ida: 'Solo andata',
@@ -515,10 +523,12 @@ const I18N = {
     l_aviso: 'Informativa affiliazione', l_priv: 'Privacy', l_cookies: 'Cookie', l_terminos: 'Termini',
     aviso_afiliados: 'Avviso: questo sito contiene link di affiliazione. Se prenoti tramite essi riceviamo una piccola commissione dal fornitore, senza alcun costo aggiuntivo per te. È ciò che mantiene gratuito questo motore di ricerca.',
     derechos: 'Tutti i diritti riservati.',
+    foto_de: 'Foto di', creditos_fotos: 'Crediti fotografici',
+    creditos_intro: 'Le fotografie di questo sito provengono da Wikimedia Commons. Autore e licenza sono indicati, come richiesto dalle licenze Creative Commons.',
     tema: 'Tema', moneda: 'Valuta', idioma: 'Lingua',
     instalar: 'Installa l\'app', compartir: 'Condividi', copiado: 'Link copiato',
-    cargando: 'Caricamento…', viendo_ahora: 'persone stanno guardando',
-    ahorro: 'di sconto', quedan: 'Restano', plazas: 'posti'
+    cargando: 'Caricamento…',
+    ahorro: 'di sconto',
   }
 };
 

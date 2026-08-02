@@ -56,14 +56,30 @@ function avisar(msg) {
   avisar._t = setTimeout(() => a.classList.remove('ver'), 2800);
 }
 
-// Número estable de "gente viendo esto" (no cambia en cada render)
-function viendo(id) {
-  let h = 0;
-  for (const c of id) h = (h * 31 + c.charCodeAt(0)) % 997;
-  return 3 + (h % 22);
+const esc = s => String(s).replace(/[&<>"]/g, c => ({ '&':'&amp;', '<':'&lt;', '>':'&gt;', '"':'&quot;' }[c]));
+
+// ---------------- FOTOS ----------------
+// Las fotos las descarga fotos.py de Wikimedia Commons a img/dest/.
+// Si alguna faltase, se dibuja el paisaje de arte.js como respaldo.
+function foto(id, alt, ancho = 'card') {
+  if (!(typeof FOTOS !== 'undefined' && FOTOS[id])) {
+    const d = DESTINOS.find(x => x.id === id) || PAQUETES.find(x => x.id === id) || { id, n: alt };
+    return arteDestino(d);
+  }
+  const sizes = ancho === 'hero' ? '100vw' : '(max-width: 560px) 100vw, 33vw';
+  return `<img src="img/dest/${id}.jpg"
+    srcset="img/dest/${id}-sm.jpg 600w, img/dest/${id}.jpg 1200w" sizes="${sizes}"
+    alt="${esc(alt)}" loading="${ancho === 'hero' ? 'eager' : 'lazy'}" decoding="async">`;
 }
 
-const esc = s => String(s).replace(/[&<>"]/g, c => ({ '&':'&amp;', '<':'&lt;', '>':'&gt;', '"':'&quot;' }[c]));
+function creditoFoto(id) {
+  const f = (typeof FOTOS !== 'undefined') && FOTOS[id];
+  if (!f) return '';
+  const autor = esc(f.autor);
+  return `<span class="credito-foto">${t('foto_de')} ${
+    f.url ? `<a href="${esc(f.url)}" target="_blank" rel="noopener nofollow">${autor}</a>` : autor
+  } · ${esc(f.licencia)}</span>`;
+}
 
 // ============================================================
 //  TRADUCIR LA PÁGINA
@@ -111,8 +127,8 @@ const CAMPOS_POR_MODO = {
 function pintarBuscador() {
   const campos = CAMPOS_POR_MODO[S.modo];
   $('#campos').innerHTML = campos.map(c => `
-    <div class="campo">
-      <label for="bq_${c.id}">${t(c.lab)}</label>
+    <div class="campo-b">
+      <label class="rotulo" for="bq_${c.id}">${t(c.lab)}</label>
       <input id="bq_${c.id}" type="${c.tipo}"
         ${c.ph ? `placeholder="${t(c.ph)}"` : ''}
         ${c.val ? `value="${c.val()}"` : ''}
@@ -162,34 +178,33 @@ function tarjetaDestino(d, oferta) {
   const meses = d.epoca.map(m => MESES[S.idioma][m - 1]).slice(0, 4).join(' · ');
 
   return `
-  <article class="tarjeta" data-id="${d.id}">
-    <div class="tarjeta-art">
-      ${arteDestino(d)}
-      ${oferta
-        ? `<span class="badge">−${oferta.dto}% ${t('ahorro')}</span>`
-        : (d.pop >= 90 ? `<span class="badge badge-pop">★ ${d.pop}</span>` : '')}
+  <article class="ficha" data-id="${d.id}">
+    <div class="ficha-foto">
+      ${foto(d.id, d.n)}
+      ${oferta ? `<span class="insignia">−${oferta.dto}% ${t('ahorro')}</span>` : ''}
       <button class="fav ${fav ? 'on' : ''}" data-fav="${d.id}" aria-label="${t('b_guardar')}">${fav ? '♥' : '♡'}</button>
-      <span class="viendo"><i class="punto"></i>${viendo(d.id)} ${t('viendo_ahora')}</span>
     </div>
-    <div class="tarjeta-cuerpo">
-      <div class="tarjeta-tit"><h3>${esc(d.n)}</h3></div>
-      <div class="pais">${esc(pais(d.pais))} · ${t('c_' + d.cont)}</div>
-      <div class="etiquetas">${d.tipos.slice(0, 3).map(x => `<span class="etiqueta">${t('tp_' + x)}</span>`).join('')}</div>
-      <div class="datos">
-        <span title="${t('mejor_epoca')}">📅 <b>${meses}</b></span>
-        <span title="${t('presupuesto')}">💶 <b>${precio(d.dia)}</b> ${t('presu_dia')}</span>
+
+    <div class="ficha-cab">
+      <div>
+        <h3>${esc(d.n)}</h3>
+        <div class="lugar rotulo">${esc(pais(d.pais))} · ${t('tp_' + d.tipos[0])}</div>
       </div>
-      <div class="precio-bloque">
-        <div>
-          ${oferta ? `<span class="precio-antes">${precio(total)}</span>` : ''}
-          <div class="precio">${precio(pDto)}<small>${t('pp')} · 5 ${t('noches')}</small></div>
-        </div>
+      <div class="precio">
+        ${oferta ? `<span class="precio-antes">${precio(total)}</span>` : ''}${precio(pDto)}
+        <span class="precio-nota rotulo">${t('pp')} · 5 ${t('noches')}</span>
       </div>
     </div>
+
+    <div class="datos">
+      <span><span class="dato-t rotulo">${t('mejor_epoca')}</span><span class="dato-v">${meses}</span></span>
+      <span><span class="dato-t rotulo">${t('presupuesto')}</span><span class="dato-v">${precio(d.dia)} / ${t('dia')}</span></span>
+    </div>
+
     <div class="acciones">
       <a class="btn btn-primario btn-sm" href="${AFF.vuelos({ destino: d.iata, ida: fecha(30), vuelta: fecha(37) })}" target="_blank" rel="noopener nofollow sponsored">${t('b_vuelos')}</a>
-      <a class="btn btn-borde btn-sm" href="${AFF.hoteles({ destino: d.n, entrada: fecha(30), salida: fecha(35) })}" target="_blank" rel="noopener nofollow sponsored">${t('b_hoteles')}</a>
-      <a class="btn btn-borde btn-sm" href="${AFF.actividades({ destino: d.n })}" target="_blank" rel="noopener nofollow sponsored">${t('b_actividades')}</a>
+      <a class="btn btn-suave btn-sm" href="${AFF.hoteles({ destino: d.n, entrada: fecha(30), salida: fecha(35) })}" target="_blank" rel="noopener nofollow sponsored">${t('b_hoteles')}</a>
+      <a class="btn btn-suave btn-sm" href="${AFF.actividades({ destino: d.n })}" target="_blank" rel="noopener nofollow sponsored">${t('b_actividades')}</a>
     </div>
   </article>`;
 }
@@ -225,7 +240,7 @@ function pintarDestinos() {
 function pintarFiltros() {
   const conts = ['todos', 'europa', 'asia', 'america', 'africa', 'oceania'];
   $('#filtroCont').innerHTML = conts.map(c =>
-    `<button class="chip ${S.filtroCont === c ? 'on' : ''}" data-cont="${c}">${c === 'todos' ? '🌍 ' + t('filtro_todos') : t('c_' + c)}</button>`
+    `<button class="chip ${S.filtroCont === c ? 'on' : ''}" data-cont="${c}">${c === 'todos' ? t('filtro_todos') : t('c_' + c)}</button>`
   ).join('');
 
   const tipos = ['todos', 'playa', 'ciudad', 'cultura', 'aventura', 'naturaleza', 'romantico', 'familia', 'lujo', 'barato', 'montana'];
@@ -245,10 +260,10 @@ function pintarOfertas() {
   $('#rejillaOfertas').innerHTML = OFERTAS.map(o => {
     const d = DESTINOS.find(x => x.id === o.destino);
     if (!d) return '';
-    const html = tarjetaDestino(d, o);
-    // Insertamos el motivo de la oferta bajo el título
-    return html.replace('<div class="etiquetas">',
-      `<div class="etiquetas"><span class="etiqueta" style="background:color-mix(in srgb,var(--calido) 18%,transparent);color:var(--calido)">${tr(MOTIVOS[o.motivo])}</span>`);
+    // El motivo de la oferta sustituye a los tipos de viaje
+    return tarjetaDestino(d, o).replace(
+      /(<div class="lugar rotulo">[^·]+· )[^<]*(<\/div>)/,
+      `$1${esc(tr(MOTIVOS[o.motivo]))}$2`);
   }).join('');
 }
 
@@ -257,26 +272,30 @@ function pintarOfertas() {
 // ============================================================
 function tarjetaPaquete(p) {
   const d = DESTINOS.find(x => x.id === p.destino) || {};
-  const arte = arteDestino({ id: p.id, n: p.n, paisaje: p.paisaje, tono: p.tono });
   return `
-  <article class="tarjeta">
-    <div class="tarjeta-art">
-      ${arte}
-      <span class="badge">${p.dias} ${t('dias')}</span>
-      <span class="viendo"><i class="punto"></i>${t('quedan')} ${p.plazas} ${t('plazas')}</span>
+  <article class="ficha">
+    <div class="ficha-foto">
+      ${foto(p.id, p.n)}
+      <span class="insignia">${p.dias} ${t('dias')}</span>
     </div>
-    <div class="tarjeta-cuerpo">
-      <h3>${esc(p.n)}</h3>
-      <div class="pais">${esc(pais(d.pais || ''))}</div>
-      <div class="etiquetas">
-        ${p.incluye.slice(0, 3).map(i => `<span class="etiqueta">✓ ${tr(ITEMS_PQ[i])}</span>`).join('')}
+
+    <div class="ficha-cab">
+      <div>
+        <h3>${esc(p.n)}</h3>
+        <div class="lugar rotulo">${esc(pais(d.pais || ''))}</div>
       </div>
-      <div class="precio-bloque">
-        <div class="precio">${precio(p.precio)}<small>${t('pp')} · ${p.dias} ${t('dias')}</small></div>
+      <div class="precio">${precio(p.precio)}
+        <span class="precio-nota rotulo">${t('pp')}</span>
       </div>
     </div>
+
+    <div class="datos">
+      <span><span class="dato-t rotulo">${t('incluye')}</span>
+        <span class="dato-v">${p.incluye.slice(0, 3).map(i => tr(ITEMS_PQ[i])).join(' · ')}</span></span>
+    </div>
+
     <div class="acciones">
-      <button class="btn btn-primario btn-sm" data-paquete="${p.id}">${t('b_todo')}</button>
+      <button class="btn btn-primario btn-sm btn-bloque" data-paquete="${p.id}">${t('b_todo')}</button>
     </div>
   </article>`;
 }
@@ -289,47 +308,48 @@ function abrirPaquete(id) {
   const p = PAQUETES.find(x => x.id === id);
   if (!p) return;
   const d = DESTINOS.find(x => x.id === p.destino) || {};
-  const arte = arteDestino({ id: p.id + '_m', n: p.n, paisaje: p.paisaje, tono: p.tono });
 
   $('#modalHost').innerHTML = `
   <div class="modal" id="modal">
     <div class="modal-caja" role="dialog" aria-modal="true">
-      <div class="modal-art">
-        ${arte}
+      <div class="modal-foto">
+        ${foto(p.id, p.n, 'hero')}
+        ${creditoFoto(p.id)}
         <button class="modal-cerrar" id="cerrarModal" aria-label="${t('cerrar')}">✕</button>
       </div>
       <div class="modal-cuerpo">
-        <h2 style="margin-bottom:.1em">${esc(p.n)}</h2>
-        <p style="color:var(--txt2)">${esc(pais(d.pais || ''))} · ${p.dias} ${t('dias')} · ${t('desde')} <b style="color:var(--calido)">${precio(p.precio)}</b> ${t('pp')}</p>
+        <span class="rotulo">${esc(pais(d.pais || ''))} · ${p.dias} ${t('dias')}</span>
+        <h2 style="margin:8px 0 4px">${esc(p.n)}</h2>
+        <p style="color:var(--tinta2)">${t('desde')} <b style="color:var(--bronce)">${precio(p.precio)}</b> ${t('pp')}</p>
 
-        <h3 style="margin-top:22px">${t('itinerario')}</h3>
+        <h3 style="margin-top:34px">${t('itinerario')}</h3>
         ${p.ruta.map((r, i) => `
           <div class="dia">
-            <div class="dia-num">${i + 1}</div>
+            <span class="dia-num">${String(i + 1).padStart(2, '0')}</span>
             <p>${esc(tr(ITIN[r.b]).replace('{l}', r.l))}</p>
           </div>`).join('')}
 
-        <div class="util-fila" style="margin-top:22px">
+        <div class="util-fila" style="margin-top:34px">
           <div>
-            <h4 style="color:var(--ok)">${t('incluye')}</h4>
-            <ul class="incluye-lista">${p.incluye.map(i => `<li>✅ ${tr(ITEMS_PQ[i])}</li>`).join('')}</ul>
+            <h4 class="rotulo">${t('incluye')}</h4>
+            <ul class="incluye-lista">${p.incluye.map(i => `<li>${tr(ITEMS_PQ[i])}</li>`).join('')}</ul>
           </div>
           <div>
-            <h4 style="color:var(--txt2)">${t('no_incluye')}</h4>
-            <ul class="incluye-lista">${p.noIncluye.map(i => `<li style="color:var(--txt2)">✕ ${tr(ITEMS_PQ[i])}</li>`).join('')}</ul>
+            <h4 class="rotulo">${t('no_incluye')}</h4>
+            <ul class="incluye-lista no-incluye">${p.noIncluye.map(i => `<li>${tr(ITEMS_PQ[i])}</li>`).join('')}</ul>
           </div>
         </div>
 
-        <p style="font-size:.84rem;color:var(--txt2);margin-top:20px;padding:12px;background:var(--bg3);border-radius:10px">${t('pq_nota')}</p>
+        <p style="font-size:.85rem;color:var(--tinta2);margin-top:30px;padding-left:16px;border-left:2px solid var(--linea)">${t('pq_nota')}</p>
 
-        <div style="display:flex;gap:8px;flex-wrap:wrap;margin-top:16px">
+        <div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:26px">
           <a class="btn btn-primario" target="_blank" rel="noopener nofollow sponsored"
              href="${AFF.vuelos({ destino: p.iata, ida: fecha(45), vuelta: fecha(45 + p.dias) })}">${t('b_vuelos')}</a>
-          <a class="btn btn-borde" target="_blank" rel="noopener nofollow sponsored"
+          <a class="btn btn-suave" target="_blank" rel="noopener nofollow sponsored"
              href="${AFF.hoteles({ destino: p.ruta[0].l, entrada: fecha(45), salida: fecha(45 + p.dias) })}">${t('b_hoteles')}</a>
-          <a class="btn btn-borde" target="_blank" rel="noopener nofollow sponsored"
+          <a class="btn btn-suave" target="_blank" rel="noopener nofollow sponsored"
              href="${AFF.actividades({ destino: p.ruta[1] ? p.ruta[1].l : p.n })}">${t('b_actividades')}</a>
-          <a class="btn btn-calido" href="#contacto" id="pqContacto">${t('pq_consultar')}</a>
+          <a class="btn btn-primario" href="#contacto" id="pqContacto">${t('pq_consultar')}</a>
         </div>
       </div>
     </div>
@@ -350,30 +370,21 @@ function abrirPaquete(id) {
 // ============================================================
 function pintarGuias() {
   $('#rejillaGuias').innerHTML = GUIAS.map(g => `
-    <article class="tarjeta guia">
-      <div class="guia-cabeza">
-        <div class="guia-icono">${g.icono}</div>
-        <div>
-          <h3>${esc(tr(g.t))}</h3>
-          <p style="color:var(--txt2);font-size:.9rem;margin:0">${esc(tr(g.r))}</p>
-        </div>
-      </div>
+    <article class="guia">
+      <h3>${esc(tr(g.t))}</h3>
+      <p>${esc(tr(g.r))}</p>
       <ul>${g.p.map(x => `<li>${esc(tr(x))}</li>`).join('')}</ul>
     </article>`).join('');
 }
 
 function pintarOpiniones() {
-  const cols = ['#0d7d8f', '#ef7a3d', '#7c5cd6', '#17915f', '#e0a028', '#e5305f'];
-  $('#rejillaOpiniones').innerHTML = OPINIONES.map((o, i) => {
+  $('#rejillaOpiniones').innerHTML = OPINIONES.map(o => {
     const d = DESTINOS.find(x => x.id === o.d);
     return `
     <div class="opinion">
       <div class="estrellas">${'★'.repeat(o.e)}${'☆'.repeat(5 - o.e)}</div>
       <p>«${esc(tr(o.t))}»</p>
-      <div class="opinion-pie">
-        <div class="avatar" style="background:${cols[i % cols.length]}">${esc(o.n[0])}</div>
-        <div><b>${esc(o.n)}</b><span>${d ? esc(d.n) : ''}</span></div>
-      </div>
+      <div class="opinion-pie"><b>${esc(o.n)}</b> · <span>${d ? esc(d.n) : ''}</span></div>
     </div>`;
   }).join('');
 }
@@ -469,7 +480,7 @@ function pintarEpocas() {
   const l = DESTINOS.filter(d => c === 'todos' || d.cont === c).slice(0, 40);
   $('#epocaLista').innerHTML = l.map(d => `
     <div class="epoca-fila">
-      <strong>${esc(d.n)}</strong> <span style="color:var(--txt2);font-size:.83rem">${esc(pais(d.pais))}</span>
+      <strong>${esc(d.n)}</strong> <span style="color:var(--tinta2);font-size:.83rem">${esc(pais(d.pais))}</span>
       <div class="meses">
         ${MESES[S.idioma].map((m, i) => `<div class="mes ${d.epoca.includes(i + 1) ? 'bueno' : ''}">${m}</div>`).join('')}
       </div>
@@ -491,7 +502,7 @@ function abrirFavoritos() {
         </div>
         ${l.length
           ? `<div class="rejilla">${l.map(d => tarjetaDestino(d)).join('')}</div>`
-          : `<p style="color:var(--txt2);text-align:center;padding:30px 0">${t('fav_vacio')}</p>`}
+          : `<p style="color:var(--tinta2);text-align:center;padding:30px 0">${t('fav_vacio')}</p>`}
       </div>
     </div>
   </div>`;
@@ -570,9 +581,11 @@ function iniciar() {
     .map(m => `<option value="${m}" ${m === S.moneda ? 'selected' : ''}>${m}</option>`).join('');
   $('#btnFav').textContent = S.favs.length ? `♥${S.favs.length}` : '♡';
 
-  // Fondo del hero (paisaje aleatorio estable del día)
+  // Foto de portada: cambia cada día, pero es la misma para todos los visitantes
   const dHero = DESTINOS[new Date().getDate() % DESTINOS.length];
-  $('#heroFondo').innerHTML = arteDestino({ ...dHero, id: 'hero' });
+  $('#heroFoto').innerHTML = foto(dHero.id, dHero.n, 'hero');
+  const cred = (typeof FOTOS !== 'undefined') && FOTOS[dHero.id];
+  if (cred) $('#heroCredito').textContent = `${dHero.n} · ${cred.autor} · ${cred.licencia}`;
 
   // WhatsApp
   if (CFG.whatsapp) {

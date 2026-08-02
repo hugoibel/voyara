@@ -83,7 +83,7 @@
         <p>${x.d} <a href="${legal}">${x.mas}</a></p>
       </div>
       <div class="ck-btns">
-        <button type="button" class="btn btn-borde btn-sm" id="ckNo">${x.no}</button>
+        <button type="button" class="btn btn-suave btn-sm" id="ckNo">${x.no}</button>
         <button type="button" class="btn btn-primario btn-sm" id="ckSi">${x.si}</button>
       </div>`;
     document.body.appendChild(el);

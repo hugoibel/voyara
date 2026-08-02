@@ -17,10 +17,10 @@ const leer = p => fs.readFileSync(path.join(BASE, p), 'utf8');
 // --- Cargamos los scripts en un contexto simulado (sin navegador) ---
 // Van concatenados en un solo script: las `const` de cada archivo solo son
 // visibles entre sí si comparten ámbito, y al final las exportamos al contexto.
-const ARCHIVOS = ['js/config.js', 'js/i18n.js', 'js/data.js', 'js/contenido.js', 'js/arte.js'];
+const ARCHIVOS = ['js/config.js', 'js/i18n.js', 'js/data.js', 'js/contenido.js', 'js/arte.js', 'js/fotos.js'];
 const EXPORTAR = ['I18N', 'PAISES', 'MESES', 'IDIOMAS_DISPONIBLES', 'BANDERAS', 'DESTINOS',
                   'PAQUETES', 'ITIN', 'ITEMS_PQ', 'OFERTAS', 'MOTIVOS', 'GUIAS', 'OPINIONES',
-                  'EQUIPAJE', 'EQ_TXT', 'CFG', 'AFF', 'arteDestino'];
+                  'EQUIPAJE', 'EQ_TXT', 'CFG', 'AFF', 'arteDestino', 'FOTOS'];
 
 const ctx = vm.createContext({ window: {}, console: { info() {}, log() {} }, navigator: { language: 'es' } });
 try {
@@ -32,7 +32,7 @@ try {
   process.exit(1);
 }
 const { I18N, PAISES, MESES, DESTINOS, PAQUETES, ITIN, ITEMS_PQ,
-        OFERTAS, MOTIVOS, GUIAS, OPINIONES, EQUIPAJE, EQ_TXT, CFG, arteDestino } = ctx.__x;
+        OFERTAS, MOTIVOS, GUIAS, OPINIONES, EQUIPAJE, EQ_TXT, CFG, arteDestino, FOTOS } = ctx.__x;
 
 // ============ 1. Los 5 idiomas tienen las mismas claves ============
 const base = new Set(Object.keys(I18N.es));
@@ -143,6 +143,22 @@ for (const [grupo, items] of Object.entries(EQUIPAJE)) {
   });
 }
 
+// ============ 5b. Fotos ============
+// Cada destino y cada viaje debe tener su foto descargada y con crédito,
+// o se cae al dibujo de respaldo y la web vuelve a parecer barata.
+for (const x of [...DESTINOS, ...PAQUETES]) {
+  const f = FOTOS[x.id];
+  if (!f) { fallos.push(`'${x.id}' no tiene foto — ejecuta: python fotos.py`); continue; }
+  if (!f.autor || !f.licencia) fallos.push(`Foto de '${x.id}' sin autor o sin licencia (la atribución es obligatoria)`);
+  for (const suf of ['', '-sm']) {
+    const ruta = `img/dest/${x.id}${suf}.jpg`;
+    if (!fs.existsSync(path.join(BASE, ruta))) fallos.push(`Falta el archivo ${ruta}`);
+  }
+}
+const huerfanasFoto = Object.keys(FOTOS).filter(id =>
+  ![...DESTINOS, ...PAQUETES].some(x => x.id === id));
+if (huerfanasFoto.length) avisos.push(`Fotos que ya no usa nadie: ${huerfanasFoto.join(', ')}`);
+
 // ============ 6. Archivos y versión ============
 const sw = leer('sw.js');
 [...sw.matchAll(/'\.\/([\w/.]+)'/g)].map(m => m[1]).forEach(f => {
@@ -167,7 +183,7 @@ const CREADOS_EN_JS = new Set(['modal', 'cerrarModal', 'pqContacto']);   // sale
   .forEach(i => fallos.push(`app.js busca #${i} pero no existe en index.html`));
 
 // ============ RESULTADO ============
-console.log(`Destinos: ${DESTINOS.length} · Viajes: ${PAQUETES.length} · Ofertas: ${OFERTAS.length} · ` +
+console.log(`Destinos: ${DESTINOS.length} · Viajes: ${PAQUETES.length} · Fotos: ${Object.keys(FOTOS).length} · Ofertas: ${OFERTAS.length} · ` +
             `Guías: ${GUIAS.length} · Claves de idioma: ${base.size} × ${IDIOMAS.length} idiomas\n`);
 if (avisos.length) {
   console.log(`⚠  ${avisos.length} aviso(s) (no rompen nada):`);

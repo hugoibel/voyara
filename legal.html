@@ -13,7 +13,7 @@
 
 <header class="cab">
   <div class="contenedor cab-in">
-    <a href="index.html" class="logo"><span class="logo-icono">✈</span><span>Voyara</span></a>
+    <a href="index.html" class="logo"><span>Voyara</span><span class="punto">.</span></a>
     <div class="cab-acc" style="margin-left:auto">
       <select class="selector" id="selIdioma" aria-label="Idioma"></select>
       <button class="btn-icono" id="btnTema">🌙</button>
@@ -23,7 +23,7 @@
 
 <main class="contenedor" style="max-width:800px;padding-top:44px;padding-bottom:60px">
   <h1 id="tituloPagina">Información legal</h1>
-  <p style="color:var(--txt2)" id="actualizado"></p>
+  <p style="color:var(--tinta2)" id="actualizado"></p>
 
   <section id="afiliados" style="margin-top:38px">
     <h2 data-l="t_af"></h2>
@@ -45,10 +45,18 @@
     <div data-l="c_te"></div>
   </section>
 
-  <p style="margin-top:44px"><a href="index.html">← <span data-l="volver"></span></a></p>
+  <section id="fotos" style="margin-top:38px">
+    <h2 id="tFotos"></h2>
+    <p id="introFotos" style="color:var(--tinta2)"></p>
+    <div class="creditos" id="listaFotos"></div>
+  </section>
+
+  <p style="margin-top:44px"><a href="index.html" class="enlace">← <span data-l="volver"></span></a></p>
 </main>
 
 <script src="js/config.js"></script>
+<script src="js/i18n.js"></script>
+<script src="js/fotos.js"></script>
 <script src="js/cookies.js"></script>
 <script>
 // ============================================================
@@ -215,7 +223,25 @@ function pintar() {
   document.querySelectorAll('.mail').forEach(e => {
     e.innerHTML = '<a href="mailto:' + CFG.email + '">' + CFG.email + '</a>';
   });
-  document.querySelectorAll('.logo span:last-child').forEach(e => e.textContent = CFG.marca);
+  document.querySelectorAll('.logo span:first-child').forEach(e => e.textContent = CFG.marca);
+  pintarCreditosFotos();
+}
+
+// Créditos de las fotos: la atribución es obligatoria en las licencias CC
+function pintarCreditosFotos() {
+  const tt = (typeof I18N !== 'undefined' && I18N[idioma]) || {};
+  document.getElementById('tFotos').textContent = tt.creditos_fotos || 'Créditos';
+  document.getElementById('introFotos').textContent = tt.creditos_intro || '';
+  if (typeof FOTOS === 'undefined') return;
+  const de = tt.foto_de || 'Foto de';
+  document.getElementById('listaFotos').innerHTML = Object.entries(FOTOS)
+    .sort((a, b) => a[0].localeCompare(b[0]))
+    .map(([id, f]) => {
+      const autor = f.url
+        ? `<a href="${f.url}" target="_blank" rel="noopener nofollow">${f.autor}</a>`
+        : f.autor;
+      return `<div><b>${id}</b> — ${de} ${autor} · ${f.licencia}</div>`;
+    }).join('');
 }
 
 document.documentElement.dataset.tema = tema;

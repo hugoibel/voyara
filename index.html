@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Voyara — Vuelos, hoteles y viajes al mejor precio</title>
 <meta name="description" content="Comparamos vuelos, hoteles, coches de alquiler y experiencias de las mejores webs del mundo. Destinos, ofertas de la semana y viajes organizados día a día. Gratis y sin registro.">
-<meta name="theme-color" content="#0d7d8f">
+<meta name="theme-color" content="#1f4d47">
 <meta name="robots" content="index, follow">
 <link rel="canonical" href="https://hugoibel.github.io/voyara/">
 
@@ -62,10 +62,7 @@
 <!-- ════════════════ CABECERA ════════════════ -->
 <header class="cab">
   <div class="contenedor cab-in">
-    <a href="#" class="logo">
-      <span class="logo-icono">✈</span>
-      <span id="marca">Voyara</span>
-    </a>
+    <a href="#" class="logo"><span id="marca">Voyara</span><span class="punto">.</span></a>
 
     <nav class="nav" id="nav">
       <a href="#destinos" data-i18n="nav_destinos"></a>
@@ -88,7 +85,8 @@
 
 <!-- ════════════════ HERO + BUSCADOR ════════════════ -->
 <section class="hero">
-  <div class="hero-fondo" id="heroFondo"></div>
+  <div class="hero-foto" id="heroFoto"></div>
+  <span class="hero-credito" id="heroCredito"></span>
   <div class="contenedor hero-in">
     <h1 data-i18n="claim"></h1>
     <p class="sub" data-i18n="subclaim"></p>
@@ -103,7 +101,7 @@
       </div>
       <form class="form-busca" id="formBusca">
         <div class="campos" id="campos"></div>
-        <button type="submit" class="btn btn-primario btn-bloque" data-i18n="f_buscar"></button>
+        <button type="submit" class="btn-buscar" data-i18n="f_buscar"></button>
       </form>
     </div>
 
@@ -118,31 +116,31 @@
 <section class="seccion" id="destinos">
   <div class="contenedor">
     <div class="seccion-cab">
-      <div class="eyebrow" data-i18n="nav_destinos"></div>
+      <span class="rotulo" data-i18n="nav_destinos"></span>
       <h2 data-i18n="s_destinos"></h2>
       <p data-i18n="s_destinos_sub"></p>
     </div>
 
     <div class="filtros" id="filtroCont"></div>
     <div class="filtros" id="filtroTipo"></div>
-    <div class="filtros">
-      <select class="selector" id="orden"></select>
+    <div class="barra-filtros">
       <button class="chip" id="btnLimpiar" data-i18n="limpiar"></button>
+      <select class="selector" id="orden"></select>
     </div>
 
     <div class="rejilla" id="rejillaDestinos"></div>
-    <p id="sinResultados" class="oculto" style="text-align:center;color:var(--txt2);padding:34px 0" data-i18n="sin_resultados"></p>
-    <div style="text-align:center;margin-top:26px">
-      <button class="btn btn-borde" id="btnMas" data-i18n="ver_mas"></button>
+    <p id="sinResultados" class="oculto" style="padding:40px 0;color:var(--tinta2)" data-i18n="sin_resultados"></p>
+    <div style="margin-top:48px">
+      <button class="btn btn-suave" id="btnMas" data-i18n="ver_mas"></button>
     </div>
   </div>
 </section>
 
 <!-- ════════════════ OFERTAS ════════════════ -->
-<section class="seccion" id="ofertas" style="background:var(--bg2);border-block:1px solid var(--borde)">
+<section class="seccion confianza" id="ofertas">
   <div class="contenedor">
     <div class="seccion-cab">
-      <div class="eyebrow">🔥 <span data-i18n="nav_ofertas"></span></div>
+      <span class="rotulo" data-i18n="nav_ofertas"></span>
       <h2 data-i18n="s_ofertas"></h2>
       <p data-i18n="s_ofertas_sub"></p>
     </div>
@@ -154,7 +152,7 @@
 <section class="seccion" id="viajes">
   <div class="contenedor">
     <div class="seccion-cab">
-      <div class="eyebrow" data-i18n="nav_paquetes"></div>
+      <span class="rotulo" data-i18n="nav_paquetes"></span>
       <h2 data-i18n="s_paquetes"></h2>
       <p data-i18n="s_paquetes_sub"></p>
     </div>
@@ -165,14 +163,14 @@
 <!-- ════════════════ POR QUÉ NOSOTROS ════════════════ -->
 <section class="seccion confianza">
   <div class="contenedor">
-    <div class="seccion-cab" style="text-align:center">
+    <div class="seccion-cab seccion-centrada">
       <h2 data-i18n="s_porque"></h2>
     </div>
     <div class="rejilla rejilla-4">
-      <div class="razon"><div class="razon-icono">💶</div><h3 data-i18n="pq1_t"></h3><p data-i18n="pq1_d"></p></div>
-      <div class="razon"><div class="razon-icono">🔍</div><h3 data-i18n="pq2_t"></h3><p data-i18n="pq2_d"></p></div>
-      <div class="razon"><div class="razon-icono">🔒</div><h3 data-i18n="pq3_t"></h3><p data-i18n="pq3_d"></p></div>
-      <div class="razon"><div class="razon-icono">🔄</div><h3 data-i18n="pq4_t"></h3><p data-i18n="pq4_d"></p></div>
+      <div class="razon"><span class="num">01</span><h3 data-i18n="pq1_t"></h3><p data-i18n="pq1_d"></p></div>
+      <div class="razon"><span class="num">02</span><h3 data-i18n="pq2_t"></h3><p data-i18n="pq2_d"></p></div>
+      <div class="razon"><span class="num">03</span><h3 data-i18n="pq3_t"></h3><p data-i18n="pq3_d"></p></div>
+      <div class="razon"><span class="num">04</span><h3 data-i18n="pq4_t"></h3><p data-i18n="pq4_d"></p></div>
     </div>
   </div>
 </section>
@@ -181,7 +179,7 @@
 <section class="seccion" id="guias">
   <div class="contenedor">
     <div class="seccion-cab">
-      <div class="eyebrow" data-i18n="nav_guias"></div>
+      <span class="rotulo" data-i18n="nav_guias"></span>
       <h2 data-i18n="s_guias"></h2>
       <p data-i18n="s_guias_sub"></p>
     </div>
@@ -190,10 +188,10 @@
 </section>
 
 <!-- ════════════════ HERRAMIENTAS ════════════════ -->
-<section class="seccion" id="util" style="background:var(--bg2);border-block:1px solid var(--borde)">
+<section class="seccion confianza" id="util">
   <div class="contenedor">
     <div class="seccion-cab">
-      <div class="eyebrow" data-i18n="nav_util"></div>
+      <span class="rotulo" data-i18n="nav_util"></span>
       <h2 data-i18n="s_util"></h2>
       <p data-i18n="s_util_sub"></p>
     </div>
@@ -202,7 +200,7 @@
 
       <!-- Conversor -->
       <div class="util">
-        <h3>💱 <span data-i18n="h_conversor"></span></h3>
+        <h3><span data-i18n="h_conversor"></span></h3>
         <p data-i18n="h_conv_sub"></p>
         <div class="campo" style="margin-bottom:10px">
           <label data-i18n="conv_cantidad"></label>
@@ -217,7 +215,7 @@
 
       <!-- Presupuesto -->
       <div class="util">
-        <h3>🧮 <span data-i18n="h_presu"></span></h3>
+        <h3><span data-i18n="h_presu"></span></h3>
         <p data-i18n="h_presu_sub"></p>
         <div class="campo" style="margin-bottom:10px">
           <label data-i18n="presu_destino"></label>
@@ -237,23 +235,23 @@
         </div>
         <div class="resultado">
           <div class="grande" id="presuTotal">—</div>
-          <div style="font-size:.8rem;color:var(--txt2)" data-i18n="presu_total"></div>
+          <div style="font-size:.8rem;color:var(--tinta2)" data-i18n="presu_total"></div>
           <div class="desglose" id="presuDesglose"></div>
         </div>
       </div>
 
       <!-- Equipaje -->
       <div class="util">
-        <h3>🧳 <span data-i18n="h_maleta"></span></h3>
+        <h3><span data-i18n="h_maleta"></span></h3>
         <p data-i18n="h_maleta_sub"></p>
         <div class="barra"><i id="maletaBarra" style="width:0%"></i></div>
         <div id="maletaLista"></div>
-        <button class="btn btn-borde btn-sm" id="maletaReset" data-i18n="maleta_reset"></button>
+        <button class="btn btn-suave btn-sm" id="maletaReset" data-i18n="maleta_reset"></button>
       </div>
 
       <!-- Mejor época -->
       <div class="util">
-        <h3>📅 <span data-i18n="h_epoca"></span></h3>
+        <h3><span data-i18n="h_epoca"></span></h3>
         <p data-i18n="h_epoca_sub"></p>
         <div class="campo" style="margin-bottom:12px">
           <label data-i18n="filtro_continente"></label>
@@ -269,7 +267,7 @@
 <!-- ════════════════ OPINIONES ════════════════ -->
 <section class="seccion">
   <div class="contenedor">
-    <div class="seccion-cab" style="text-align:center">
+    <div class="seccion-cab seccion-centrada">
       <h2 data-i18n="s_opiniones"></h2>
     </div>
     <div class="rejilla" id="rejillaOpiniones"></div>
@@ -277,24 +275,24 @@
 </section>
 
 <!-- ════════════════ NEWSLETTER ════════════════ -->
-<section class="seccion">
+<section class="boletin">
   <div class="contenedor">
-    <div class="news">
+    <div class="boletin-in">
       <h2 data-i18n="news_t"></h2>
       <p data-i18n="news_d"></p>
-      <form class="news-form" id="formNews">
+      <form class="boletin-form" id="formNews">
         <input type="email" id="newsEmail" required data-i18n-ph="news_ph">
         <button class="btn" type="submit" data-i18n="news_btn"></button>
       </form>
-      <p class="news-nota" data-i18n="aviso_afiliados"></p>
+      <p class="nota" data-i18n="aviso_afiliados"></p>
     </div>
   </div>
 </section>
 
 <!-- ════════════════ FAQ ════════════════ -->
-<section class="seccion" id="faq" style="background:var(--bg2);border-block:1px solid var(--borde)">
+<section class="seccion" id="faq">
   <div class="contenedor">
-    <div class="seccion-cab" style="text-align:center">
+    <div class="seccion-cab seccion-centrada">
       <h2 data-i18n="s_faq"></h2>
     </div>
     <div class="faq" id="faqLista"></div>
@@ -303,12 +301,12 @@
 
 <!-- ════════════════ CONTACTO ════════════════ -->
 <section class="seccion" id="contacto">
-  <div class="contenedor" style="max-width:720px">
-    <div class="seccion-cab" style="text-align:center">
+  <div class="contenedor">
+    <div class="seccion-cab seccion-centrada">
       <h2 data-i18n="s_contacto"></h2>
       <p style="margin:0 auto" data-i18n="con_d"></p>
     </div>
-    <div class="contacto-caja">
+    <div class="contacto">
       <form id="formContacto">
         <div class="util-fila">
           <div class="campo"><label data-i18n="con_nombre"></label><input type="text" id="conNombre" required></div>
@@ -320,7 +318,7 @@
         </div>
         <div style="display:flex;gap:9px;flex-wrap:wrap">
           <button type="submit" class="btn btn-primario" data-i18n="con_enviar"></button>
-          <a class="btn btn-borde" id="btnWa2" target="_blank" rel="noopener" data-i18n="con_wa"></a>
+          <a class="btn btn-suave" id="btnWa2" target="_blank" rel="noopener" data-i18n="con_wa"></a>
         </div>
       </form>
     </div>
@@ -333,10 +331,8 @@
     <div class="aviso-afiliados" data-i18n="aviso_afiliados"></div>
     <div class="pie-rejilla">
       <div>
-        <div class="logo" style="margin-bottom:10px">
-          <span class="logo-icono">✈</span><span id="marca2">Voyara</span>
-        </div>
-        <p style="color:var(--txt2);font-size:.88rem" data-i18n="subclaim"></p>
+        <div class="logo" style="margin-bottom:14px"><span id="marca2">Voyara</span><span class="punto">.</span></div>
+        <p style="color:var(--tinta2);font-size:.88rem" data-i18n="subclaim"></p>
       </div>
       <div>
         <h4 data-i18n="pie_nav"></h4>
@@ -377,6 +373,7 @@
 <script src="js/cookies.js"></script>
 <script src="js/i18n.js"></script>
 <script src="js/data.js"></script>
+<script src="js/fotos.js"></script>
 <script src="js/contenido.js"></script>
 <script src="js/arte.js"></script>
 <script src="js/app.js"></script>

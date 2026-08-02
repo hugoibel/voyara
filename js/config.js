@@ -42,7 +42,7 @@ const CFG = {
 
   // ---------- AJUSTES ----------
   refrescarTasas: true,   // intenta actualizar las tasas al abrir (si falla, usa las de arriba)
-  version: '1.3'
+  version: '2.0'
 };
 
 // ============================================================

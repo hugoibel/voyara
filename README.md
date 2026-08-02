@@ -96,8 +96,8 @@ git add -A && git commit -m "lo que hayas cambiado" && git push
 **Buscador de 5 pestañas** — vuelos, hoteles, coches, experiencias y viajes completos.
 Cada búsqueda construye la URL con tu ID y abre el socio en otra pestaña.
 
-**36 destinos** con precio orientativo, mejor época, presupuesto diario, filtros por continente
-y por tipo de viaje (playa, ciudad, cultura, aventura, lujo, económico…) y ordenación.
+**36 destinos** con foto real, precio orientativo, mejor época, presupuesto diario, filtros por
+continente y por tipo de viaje (playa, ciudad, cultura, aventura, lujo, económico…) y ordenación.
 
 **Ofertas de la semana** — destinos con descuento y precio tachado.
 
@@ -131,11 +131,23 @@ en los 5 idiomas.
   paisaje:'montana', tono:200 },
 ```
 
-`paisaje` puede ser: `playa`, `ciudad`, `montana`, `desierto`, `selva`, `nieve`, `isla`, `templo`.
-El dibujo se genera solo, no hace falta buscar fotos.
+Después añade su término de búsqueda en **`fotos.py`** y ejecuta `python fotos.py`: baja la foto
+de Wikimedia Commons, la recorta y anota el crédito. `paisaje` solo se usa como respaldo si esa
+foto faltara.
 
-> ¿Quieres una foto real en vez del dibujo? Mete el archivo en `img/` y añade
-> `foto:'img/oslo.jpg'` al destino.
+### Cambiar una foto que no te gusta
+
+En `fotos.py`:
+- **Opción rápida**: cambia su término en `BUSQUEDAS`, borra `img/dest/<id>.jpg` y `-sm.jpg`,
+  y ejecuta `python fotos.py`.
+- **Opción exacta**: busca la foto que quieras en commons.wikimedia.org y pon su nombre de
+  archivo en `ARCHIVO_FIJO`. Manda sobre la búsqueda.
+- **Tu propia foto**: déjala en `img/dest/<id>.jpg` (1200×800) y `<id>-sm.jpg` (600×400), y
+  añade el id a `MANUALES` para que el script no la pise.
+
+Las fotos son de Wikimedia Commons, filtradas entre las marcadas como *Quality* o *Featured*.
+**La atribución es obligatoria** en las licencias Creative Commons: se genera sola en
+`js/fotos.js` y se muestra en la página legal y sobre cada foto ampliada.
 
 Si el país es nuevo, añádelo también a `PAISES` en `js/i18n.js` con sus 5 traducciones.
 
