@@ -577,6 +577,21 @@ function iniciar() {
   // Selectores
   $('#selIdioma').innerHTML = IDIOMAS_DISPONIBLES
     .map(l => `<option value="${l}" ${l === S.idioma ? 'selected' : ''}>${BANDERAS[l]} ${I18N[l].idioma_nombre}</option>`).join('');
+
+  // En móvil el selector de idioma no cabe en la cabecera: va dentro del menú
+  const idiomasMovil = document.createElement('div');
+  idiomasMovil.className = 'idiomas-movil';
+  idiomasMovil.innerHTML = IDIOMAS_DISPONIBLES
+    .map(l => `<button data-lang="${l}" class="${l === S.idioma ? 'on' : ''}">${BANDERAS[l]} ${I18N[l].idioma_nombre}</button>`).join('');
+  idiomasMovil.onclick = e => {
+    const b = e.target.closest('[data-lang]'); if (!b) return;
+    S.idioma = b.dataset.lang;
+    $('#selIdioma').value = S.idioma;
+    $$('.idiomas-movil button').forEach(x => x.classList.toggle('on', x.dataset.lang === S.idioma));
+    $('#nav').classList.remove('abierto');
+    aplicarIdioma();
+  };
+  $('#nav').appendChild(idiomasMovil);
   $('#selMoneda').innerHTML = Object.keys(CFG.monedas)
     .map(m => `<option value="${m}" ${m === S.moneda ? 'selected' : ''}>${m}</option>`).join('');
   $('#btnFav').textContent = S.favs.length ? `♥${S.favs.length}` : '♡';
@@ -654,7 +669,11 @@ function iniciar() {
   $('#btnMenu').onclick = () => $('#nav').classList.toggle('abierto');
   $('#nav').onclick = e => { if (e.target.tagName === 'A') $('#nav').classList.remove('abierto'); };
 
-  $('#selIdioma').onchange = e => { S.idioma = e.target.value; aplicarIdioma(); };
+  $('#selIdioma').onchange = e => {
+    S.idioma = e.target.value;
+    $$('.idiomas-movil button').forEach(x => x.classList.toggle('on', x.dataset.lang === S.idioma));
+    aplicarIdioma();
+  };
   $('#selMoneda').onchange = e => {
     S.moneda = e.target.value; window.MONEDA_ACTUAL = S.moneda; LS.set('moneda', S.moneda); pintarTodo();
   };

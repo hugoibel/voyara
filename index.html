@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Voyara — Vuelos, hoteles y viajes al mejor precio</title>
-<meta name="description" content="Comparamos vuelos, hoteles, coches de alquiler y experiencias de las mejores webs del mundo. Destinos, ofertas de la semana y viajes organizados día a día. Gratis y sin registro.">
+<meta name="description" content="Compara vuelos, hoteles, coches y experiencias en un solo sitio. 36 destinos, ofertas cada semana y viajes con itinerario día a día. Gratis, sin registro.">
 <meta name="theme-color" content="#1f4d47">
 <meta name="robots" content="index, follow">
 <link rel="canonical" href="https://hugoibel.github.io/voyara/">
@@ -125,7 +125,7 @@
     <div class="filtros" id="filtroTipo"></div>
     <div class="barra-filtros">
       <button class="chip" id="btnLimpiar" data-i18n="limpiar"></button>
-      <select class="selector" id="orden"></select>
+      <select class="selector" id="orden" aria-label="Ordenar por"></select>
     </div>
 
     <div class="rejilla" id="rejillaDestinos"></div>
@@ -203,12 +203,12 @@
         <h3><span data-i18n="h_conversor"></span></h3>
         <p data-i18n="h_conv_sub"></p>
         <div class="campo" style="margin-bottom:10px">
-          <label data-i18n="conv_cantidad"></label>
+          <label for="convCant" data-i18n="conv_cantidad"></label>
           <input type="number" id="convCant" value="100" min="0" step="any">
         </div>
         <div class="util-fila">
-          <div class="campo"><label data-i18n="conv_de"></label><select id="convDe"></select></div>
-          <div class="campo"><label data-i18n="conv_a"></label><select id="convA"></select></div>
+          <div class="campo"><label for="convDe" data-i18n="conv_de"></label><select id="convDe"></select></div>
+          <div class="campo"><label for="convA" data-i18n="conv_a"></label><select id="convA"></select></div>
         </div>
         <div class="resultado"><div class="grande" id="convRes">—</div></div>
       </div>
@@ -218,15 +218,15 @@
         <h3><span data-i18n="h_presu"></span></h3>
         <p data-i18n="h_presu_sub"></p>
         <div class="campo" style="margin-bottom:10px">
-          <label data-i18n="presu_destino"></label>
+          <label for="presuDest" data-i18n="presu_destino"></label>
           <select id="presuDest"></select>
         </div>
         <div class="util-fila">
-          <div class="campo"><label data-i18n="presu_dias"></label><input type="number" id="presuDias" value="7" min="1" max="90"></div>
-          <div class="campo"><label data-i18n="presu_personas"></label><input type="number" id="presuPax" value="2" min="1" max="12"></div>
+          <div class="campo"><label for="presuDias" data-i18n="presu_dias"></label><input type="number" id="presuDias" value="7" min="1" max="90"></div>
+          <div class="campo"><label for="presuPax" data-i18n="presu_personas"></label><input type="number" id="presuPax" value="2" min="1" max="12"></div>
         </div>
         <div class="campo">
-          <label data-i18n="presu_estilo"></label>
+          <label for="presuEstilo" data-i18n="presu_estilo"></label>
           <select id="presuEstilo">
             <option value="0.6" data-i18n="presu_mochilero"></option>
             <option value="1" selected data-i18n="presu_normal"></option>
@@ -254,7 +254,7 @@
         <h3><span data-i18n="h_epoca"></span></h3>
         <p data-i18n="h_epoca_sub"></p>
         <div class="campo" style="margin-bottom:12px">
-          <label data-i18n="filtro_continente"></label>
+          <label for="epocaCont" data-i18n="filtro_continente"></label>
           <select id="epocaCont"></select>
         </div>
         <div id="epocaLista" style="max-height:290px;overflow-y:auto"></div>
@@ -281,7 +281,7 @@
       <h2 data-i18n="news_t"></h2>
       <p data-i18n="news_d"></p>
       <form class="boletin-form" id="formNews">
-        <input type="email" id="newsEmail" required data-i18n-ph="news_ph">
+        <input type="email" id="newsEmail" required data-i18n-ph="news_ph" aria-label="Correo electrónico">
         <button class="btn" type="submit" data-i18n="news_btn"></button>
       </form>
       <p class="nota" data-i18n="aviso_afiliados"></p>
@@ -309,11 +309,11 @@
     <div class="contacto">
       <form id="formContacto">
         <div class="util-fila">
-          <div class="campo"><label data-i18n="con_nombre"></label><input type="text" id="conNombre" required></div>
-          <div class="campo"><label data-i18n="con_email"></label><input type="email" id="conEmail" required></div>
+          <div class="campo"><label for="conNombre" data-i18n="con_nombre"></label><input type="text" id="conNombre" required></div>
+          <div class="campo"><label for="conEmail" data-i18n="con_email"></label><input type="email" id="conEmail" required></div>
         </div>
         <div class="campo" style="margin:12px 0 16px">
-          <label data-i18n="con_msg"></label>
+          <label for="conMsg" data-i18n="con_msg"></label>
           <textarea id="conMsg" required></textarea>
         </div>
         <div style="display:flex;gap:9px;flex-wrap:wrap">
@@ -335,7 +335,7 @@
         <p style="color:var(--tinta2);font-size:.88rem" data-i18n="subclaim"></p>
       </div>
       <div>
-        <h4 data-i18n="pie_nav"></h4>
+        <h3 class="pie-tit" data-i18n="pie_nav"></h3>
         <ul>
           <li><a href="#destinos" data-i18n="nav_destinos"></a></li>
           <li><a href="#ofertas"  data-i18n="nav_ofertas"></a></li>
@@ -345,7 +345,7 @@
         </ul>
       </div>
       <div>
-        <h4 data-i18n="pie_legal"></h4>
+        <h3 class="pie-tit" data-i18n="pie_legal"></h3>
         <ul>
           <li><a href="legal.html#afiliados" data-i18n="l_aviso"></a></li>
           <li><a href="legal.html#privacidad" data-i18n="l_priv"></a></li>
@@ -354,7 +354,7 @@
         </ul>
       </div>
       <div>
-        <h4 data-i18n="pie_social"></h4>
+        <h3 class="pie-tit" data-i18n="pie_social"></h3>
         <ul id="pieSocial"></ul>
       </div>
     </div>
