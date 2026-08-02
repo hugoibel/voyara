@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="es" data-tema="claro">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Voyara — Vuelos, hoteles y viajes al mejor precio</title>
+<meta name="description" content="Comparamos vuelos, hoteles, coches de alquiler y experiencias de las mejores webs del mundo. Destinos, ofertas de la semana y viajes organizados día a día. Gratis y sin registro.">
+<meta name="theme-color" content="#0d7d8f">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://voyara.com/">
+
+<!-- Redes sociales -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Voyara">
+<meta property="og:title" content="Voyara — Tu próximo viaje empieza aquí">
+<meta property="og:description" content="Vuelos, hoteles, coches y experiencias comparados en un solo sitio. Ofertas cada semana.">
+<meta property="og:url" content="https://voyara.com/">
+<meta property="og:image" content="https://voyara.com/icons/og.png">
+<meta name="twitter:card" content="summary_large_image">
+
+<!-- Idiomas alternativos (SEO) -->
+<link rel="alternate" hreflang="es" href="https://voyara.com/?lang=es">
+<link rel="alternate" hreflang="en" href="https://voyara.com/?lang=en">
+<link rel="alternate" hreflang="de" href="https://voyara.com/?lang=de">
+<link rel="alternate" hreflang="fr" href="https://voyara.com/?lang=fr">
+<link rel="alternate" hreflang="it" href="https://voyara.com/?lang=it">
+<link rel="alternate" hreflang="x-default" href="https://voyara.com/">
+
+<link rel="manifest" href="manifest.json">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='24' fill='%230d7d8f'/><text y='72' x='50' font-size='58' text-anchor='middle'>✈</text></svg>">
+<link rel="apple-touch-icon" href="icons/icon-192.png">
+<link rel="stylesheet" href="css/style.css">
+
+<!-- Datos estructurados para Google -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Voyara",
+  "url": "https://voyara.com/",
+  "description": "Buscador y comparador de vuelos, hoteles, coches y experiencias de viaje.",
+  "inLanguage": ["es","en","de","fr","it"],
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://voyara.com/?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>
+</head>
+<body>
+
+<!-- ════════════════ CABECERA ════════════════ -->
+<header class="cab">
+  <div class="contenedor cab-in">
+    <a href="#" class="logo">
+      <span class="logo-icono">✈</span>
+      <span id="marca">Voyara</span>
+    </a>
+
+    <nav class="nav" id="nav">
+      <a href="#destinos" data-i18n="nav_destinos"></a>
+      <a href="#ofertas"  data-i18n="nav_ofertas"></a>
+      <a href="#viajes"   data-i18n="nav_paquetes"></a>
+      <a href="#guias"    data-i18n="nav_guias"></a>
+      <a href="#util"     data-i18n="nav_util"></a>
+      <a href="#contacto" data-i18n="nav_contacto"></a>
+    </nav>
+
+    <div class="cab-acc">
+      <select class="selector idioma-sel" id="selIdioma" aria-label="Idioma"></select>
+      <select class="selector" id="selMoneda" aria-label="Moneda"></select>
+      <button class="btn-icono" id="btnFav" title="Favoritos">♡</button>
+      <button class="btn-icono" id="btnTema" title="Tema">🌙</button>
+      <button class="btn-icono menu-movil" id="btnMenu" aria-label="Menú">☰</button>
+    </div>
+  </div>
+</header>
+
+<!-- ════════════════ HERO + BUSCADOR ════════════════ -->
+<section class="hero">
+  <div class="hero-fondo" id="heroFondo"></div>
+  <div class="contenedor hero-in">
+    <h1 data-i18n="claim"></h1>
+    <p class="sub" data-i18n="subclaim"></p>
+
+    <div class="buscador">
+      <div class="tabs" id="tabs">
+        <button class="tab on" data-modo="vuelos"      data-i18n="t_vuelos"></button>
+        <button class="tab"    data-modo="hoteles"     data-i18n="t_hoteles"></button>
+        <button class="tab"    data-modo="coches"      data-i18n="t_coches"></button>
+        <button class="tab"    data-modo="actividades" data-i18n="t_actividades"></button>
+        <button class="tab"    data-modo="paquetes"    data-i18n="t_paquetes"></button>
+      </div>
+      <form class="form-busca" id="formBusca">
+        <div class="campos" id="campos"></div>
+        <button type="submit" class="btn btn-primario btn-bloque" data-i18n="f_buscar"></button>
+      </form>
+    </div>
+
+    <div class="socios">
+      <span>Booking.com</span><span>·</span><span>Skyscanner</span><span>·</span>
+      <span>GetYourGuide</span><span>·</span><span>Civitatis</span><span>·</span><span>Airalo</span>
+    </div>
+  </div>
+</section>
+
+<!-- ════════════════ DESTINOS ════════════════ -->
+<section class="seccion" id="destinos">
+  <div class="contenedor">
+    <div class="seccion-cab">
+      <div class="eyebrow" data-i18n="nav_destinos"></div>
+      <h2 data-i18n="s_destinos"></h2>
+      <p data-i18n="s_destinos_sub"></p>
+    </div>
+
+    <div class="filtros" id="filtroCont"></div>
+    <div class="filtros" id="filtroTipo"></div>
+    <div class="filtros">
+      <select class="selector" id="orden"></select>
+      <button class="chip" id="btnLimpiar" data-i18n="limpiar"></button>
+    </div>
+
+    <div class="rejilla" id="rejillaDestinos"></div>
+    <p id="sinResultados" class="oculto" style="text-align:center;color:var(--txt2);padding:34px 0" data-i18n="sin_resultados"></p>
+    <div style="text-align:center;margin-top:26px">
+      <button class="btn btn-borde" id="btnMas" data-i18n="ver_mas"></button>
+    </div>
+  </div>
+</section>
+
+<!-- ════════════════ OFERTAS ════════════════ -->
+<section class="seccion" id="ofertas" style="background:var(--bg2);border-block:1px solid var(--borde)">
+  <div class="contenedor">
+    <div class="seccion-cab">
+      <div class="eyebrow">🔥 <span data-i18n="nav_ofertas"></span></div>
+      <h2 data-i18n="s_ofertas"></h2>
+      <p data-i18n="s_ofertas_sub"></p>
+    </div>
+    <div class="rejilla" id="rejillaOfertas"></div>
+  </div>
+</section>
+
+<!-- ════════════════ VIAJES ORGANIZADOS ════════════════ -->
+<section class="seccion" id="viajes">
+  <div class="contenedor">
+    <div class="seccion-cab">
+      <div class="eyebrow" data-i18n="nav_paquetes"></div>
+      <h2 data-i18n="s_paquetes"></h2>
+      <p data-i18n="s_paquetes_sub"></p>
+    </div>
+    <div class="rejilla" id="rejillaPaquetes"></div>
+  </div>
+</section>
+
+<!-- ════════════════ POR QUÉ NOSOTROS ════════════════ -->
+<section class="seccion confianza">
+  <div class="contenedor">
+    <div class="seccion-cab" style="text-align:center">
+      <h2 data-i18n="s_porque"></h2>
+    </div>
+    <div class="rejilla rejilla-4">
+      <div class="razon"><div class="razon-icono">💶</div><h3 data-i18n="pq1_t"></h3><p data-i18n="pq1_d"></p></div>
+      <div class="razon"><div class="razon-icono">🔍</div><h3 data-i18n="pq2_t"></h3><p data-i18n="pq2_d"></p></div>
+      <div class="razon"><div class="razon-icono">🔒</div><h3 data-i18n="pq3_t"></h3><p data-i18n="pq3_d"></p></div>
+      <div class="razon"><div class="razon-icono">🔄</div><h3 data-i18n="pq4_t"></h3><p data-i18n="pq4_d"></p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ════════════════ GUÍAS ════════════════ -->
+<section class="seccion" id="guias">
+  <div class="contenedor">
+    <div class="seccion-cab">
+      <div class="eyebrow" data-i18n="nav_guias"></div>
+      <h2 data-i18n="s_guias"></h2>
+      <p data-i18n="s_guias_sub"></p>
+    </div>
+    <div class="rejilla rejilla-2" id="rejillaGuias"></div>
+  </div>
+</section>
+
+<!-- ════════════════ HERRAMIENTAS ════════════════ -->
+<section class="seccion" id="util" style="background:var(--bg2);border-block:1px solid var(--borde)">
+  <div class="contenedor">
+    <div class="seccion-cab">
+      <div class="eyebrow" data-i18n="nav_util"></div>
+      <h2 data-i18n="s_util"></h2>
+      <p data-i18n="s_util_sub"></p>
+    </div>
+
+    <div class="rejilla rejilla-2">
+
+      <!-- Conversor -->
+      <div class="util">
+        <h3>💱 <span data-i18n="h_conversor"></span></h3>
+        <p data-i18n="h_conv_sub"></p>
+        <div class="campo" style="margin-bottom:10px">
+          <label data-i18n="conv_cantidad"></label>
+          <input type="number" id="convCant" value="100" min="0" step="any">
+        </div>
+        <div class="util-fila">
+          <div class="campo"><label data-i18n="conv_de"></label><select id="convDe"></select></div>
+          <div class="campo"><label data-i18n="conv_a"></label><select id="convA"></select></div>
+        </div>
+        <div class="resultado"><div class="grande" id="convRes">—</div></div>
+      </div>
+
+      <!-- Presupuesto -->
+      <div class="util">
+        <h3>🧮 <span data-i18n="h_presu"></span></h3>
+        <p data-i18n="h_presu_sub"></p>
+        <div class="campo" style="margin-bottom:10px">
+          <label data-i18n="presu_destino"></label>
+          <select id="presuDest"></select>
+        </div>
+        <div class="util-fila">
+          <div class="campo"><label data-i18n="presu_dias"></label><input type="number" id="presuDias" value="7" min="1" max="90"></div>
+          <div class="campo"><label data-i18n="presu_personas"></label><input type="number" id="presuPax" value="2" min="1" max="12"></div>
+        </div>
+        <div class="campo">
+          <label data-i18n="presu_estilo"></label>
+          <select id="presuEstilo">
+            <option value="0.6" data-i18n="presu_mochilero"></option>
+            <option value="1" selected data-i18n="presu_normal"></option>
+            <option value="1.8" data-i18n="presu_comodo"></option>
+          </select>
+        </div>
+        <div class="resultado">
+          <div class="grande" id="presuTotal">—</div>
+          <div style="font-size:.8rem;color:var(--txt2)" data-i18n="presu_total"></div>
+          <div class="desglose" id="presuDesglose"></div>
+        </div>
+      </div>
+
+      <!-- Equipaje -->
+      <div class="util">
+        <h3>🧳 <span data-i18n="h_maleta"></span></h3>
+        <p data-i18n="h_maleta_sub"></p>
+        <div class="barra"><i id="maletaBarra" style="width:0%"></i></div>
+        <div id="maletaLista"></div>
+        <button class="btn btn-borde btn-sm" id="maletaReset" data-i18n="maleta_reset"></button>
+      </div>
+
+      <!-- Mejor época -->
+      <div class="util">
+        <h3>📅 <span data-i18n="h_epoca"></span></h3>
+        <p data-i18n="h_epoca_sub"></p>
+        <div class="campo" style="margin-bottom:12px">
+          <label data-i18n="filtro_continente"></label>
+          <select id="epocaCont"></select>
+        </div>
+        <div id="epocaLista" style="max-height:290px;overflow-y:auto"></div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ════════════════ OPINIONES ════════════════ -->
+<section class="seccion">
+  <div class="contenedor">
+    <div class="seccion-cab" style="text-align:center">
+      <h2 data-i18n="s_opiniones"></h2>
+    </div>
+    <div class="rejilla" id="rejillaOpiniones"></div>
+  </div>
+</section>
+
+<!-- ════════════════ NEWSLETTER ════════════════ -->
+<section class="seccion">
+  <div class="contenedor">
+    <div class="news">
+      <h2 data-i18n="news_t"></h2>
+      <p data-i18n="news_d"></p>
+      <form class="news-form" id="formNews">
+        <input type="email" id="newsEmail" required data-i18n-ph="news_ph">
+        <button class="btn" type="submit" data-i18n="news_btn"></button>
+      </form>
+      <p class="news-nota" data-i18n="aviso_afiliados"></p>
+    </div>
+  </div>
+</section>
+
+<!-- ════════════════ FAQ ════════════════ -->
+<section class="seccion" id="faq" style="background:var(--bg2);border-block:1px solid var(--borde)">
+  <div class="contenedor">
+    <div class="seccion-cab" style="text-align:center">
+      <h2 data-i18n="s_faq"></h2>
+    </div>
+    <div class="faq" id="faqLista"></div>
+  </div>
+</section>
+
+<!-- ════════════════ CONTACTO ════════════════ -->
+<section class="seccion" id="contacto">
+  <div class="contenedor" style="max-width:720px">
+    <div class="seccion-cab" style="text-align:center">
+      <h2 data-i18n="s_contacto"></h2>
+      <p style="margin:0 auto" data-i18n="con_d"></p>
+    </div>
+    <div class="contacto-caja">
+      <form id="formContacto">
+        <div class="util-fila">
+          <div class="campo"><label data-i18n="con_nombre"></label><input type="text" id="conNombre" required></div>
+          <div class="campo"><label data-i18n="con_email"></label><input type="email" id="conEmail" required></div>
+        </div>
+        <div class="campo" style="margin:12px 0 16px">
+          <label data-i18n="con_msg"></label>
+          <textarea id="conMsg" required></textarea>
+        </div>
+        <div style="display:flex;gap:9px;flex-wrap:wrap">
+          <button type="submit" class="btn btn-primario" data-i18n="con_enviar"></button>
+          <a class="btn btn-borde" id="btnWa2" target="_blank" rel="noopener" data-i18n="con_wa"></a>
+        </div>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- ════════════════ PIE ════════════════ -->
+<footer class="pie">
+  <div class="contenedor">
+    <div class="aviso-afiliados" data-i18n="aviso_afiliados"></div>
+    <div class="pie-rejilla">
+      <div>
+        <div class="logo" style="margin-bottom:10px">
+          <span class="logo-icono">✈</span><span id="marca2">Voyara</span>
+        </div>
+        <p style="color:var(--txt2);font-size:.88rem" data-i18n="subclaim"></p>
+      </div>
+      <div>
+        <h4 data-i18n="pie_nav"></h4>
+        <ul>
+          <li><a href="#destinos" data-i18n="nav_destinos"></a></li>
+          <li><a href="#ofertas"  data-i18n="nav_ofertas"></a></li>
+          <li><a href="#viajes"   data-i18n="nav_paquetes"></a></li>
+          <li><a href="#guias"    data-i18n="nav_guias"></a></li>
+          <li><a href="#util"     data-i18n="nav_util"></a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 data-i18n="pie_legal"></h4>
+        <ul>
+          <li><a href="legal.html#afiliados" data-i18n="l_aviso"></a></li>
+          <li><a href="legal.html#privacidad" data-i18n="l_priv"></a></li>
+          <li><a href="legal.html#cookies" data-i18n="l_cookies"></a></li>
+          <li><a href="legal.html#terminos" data-i18n="l_terminos"></a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 data-i18n="pie_social"></h4>
+        <ul id="pieSocial"></ul>
+      </div>
+    </div>
+    <div class="pie-abajo">
+      <span>© <span id="anio"></span> <span class="marca-txt">Voyara</span>. <span data-i18n="derechos"></span></span>
+      <span id="pieVersion"></span>
+    </div>
+  </div>
+</footer>
+
+<a class="wa oculto" id="btnWa" target="_blank" rel="noopener" title="WhatsApp">💬</a>
+<div class="aviso" id="aviso"></div>
+<div id="modalHost"></div>
+
+<script src="js/config.js"></script>
+<script src="js/i18n.js"></script>
+<script src="js/data.js"></script>
+<script src="js/contenido.js"></script>
+<script src="js/arte.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

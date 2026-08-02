@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="es" data-tema="claro">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Voyara — Información legal</title>
+<meta name="robots" content="index, follow">
+<link rel="stylesheet" href="css/style.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='24' fill='%230d7d8f'/><text y='72' x='50' font-size='58' text-anchor='middle'>✈</text></svg>">
+</head>
+<body>
+
+<header class="cab">
+  <div class="contenedor cab-in">
+    <a href="index.html" class="logo"><span class="logo-icono">✈</span><span>Voyara</span></a>
+    <div class="cab-acc" style="margin-left:auto">
+      <select class="selector" id="selIdioma" aria-label="Idioma"></select>
+      <button class="btn-icono" id="btnTema">🌙</button>
+    </div>
+  </div>
+</header>
+
+<main class="contenedor" style="max-width:800px;padding-top:44px;padding-bottom:60px">
+  <h1 id="tituloPagina">Información legal</h1>
+  <p style="color:var(--txt2)" id="actualizado"></p>
+
+  <section id="afiliados" style="margin-top:38px">
+    <h2 data-l="t_af"></h2>
+    <div data-l="c_af"></div>
+  </section>
+
+  <section id="privacidad" style="margin-top:38px">
+    <h2 data-l="t_pr"></h2>
+    <div data-l="c_pr"></div>
+  </section>
+
+  <section id="cookies" style="margin-top:38px">
+    <h2 data-l="t_co"></h2>
+    <div data-l="c_co"></div>
+  </section>
+
+  <section id="terminos" style="margin-top:38px">
+    <h2 data-l="t_te"></h2>
+    <div data-l="c_te"></div>
+  </section>
+
+  <p style="margin-top:44px"><a href="index.html">← <span data-l="volver"></span></a></p>
+</main>
+
+<script src="js/config.js"></script>
+<script>
+// ============================================================
+//  Textos legales en los 5 idiomas
+//  ⚠️ Son una base razonable, NO asesoramiento jurídico.
+//     Cuando factures de verdad, revísalos con un asesor de tu país
+//     y añade tus datos fiscales reales donde pone [TUS DATOS].
+// ============================================================
+const L = {
+es: {
+  titulo:'Información legal', volver:'Volver al inicio', act:'Última actualización',
+  t_af:'Aviso de afiliados',
+  c_af:`<p>Esta web es un <b>buscador y comparador de viajes</b>, no una agencia de viajes. No vendemos vuelos, hoteles ni paquetes turísticos, no gestionamos cobros y no somos parte del contrato que firmas al reservar.</p>
+        <p>Cuando pulsas un botón de búsqueda o de reserva te enviamos a la web de un tercero (Booking.com, Aviasales/Skyscanner, GetYourGuide, Civitatis, EconomyBookings, Airalo u otros). Si contratas allí, ese proveedor nos paga una <b>comisión de afiliado</b>. <b>Tú pagas exactamente el mismo precio</b>: la comisión sale del margen del proveedor, no de tu bolsillo.</p>
+        <p>Los precios que ves aquí son <b>orientativos</b>, calculados sobre valores habituales, y pueden no coincidir con el precio final. El precio válido es siempre el que muestre el proveedor en el momento de la reserva.</p>
+        <p>Cualquier incidencia con una reserva (cambios, cancelaciones, reembolsos) debe tratarse directamente con el proveedor que te la vendió, que es quien tiene tu contrato y tu dinero.</p>`,
+  t_pr:'Política de privacidad',
+  c_pr:`<p>Responsable: [TUS DATOS: nombre o razón social, NIF y dirección] · Contacto: <span class="mail"></span></p>
+        <p><b>Qué datos recogemos.</b> Esta web funciona sin cuentas de usuario. Los datos que introduces en el buscador (destino, fechas, número de viajeros) se usan solo para construir el enlace de búsqueda y no se almacenan en ningún servidor nuestro.</p>
+        <p>Si nos escribes por el formulario de contacto, tu mensaje se abre en tu propio programa de correo: recibimos tu nombre, tu correo y lo que nos cuentes, y lo usamos únicamente para responderte.</p>
+        <p>Si te suscribes al boletín, guardamos tu correo con la única finalidad de enviarte ofertas. Puedes darte de baja en cualquier momento desde el enlace de cada envío.</p>
+        <p><b>Dónde se guardan tus preferencias.</b> Idioma, moneda, tema, favoritos y la lista de equipaje se guardan <b>en tu propio navegador</b> (almacenamiento local). No salen de tu dispositivo y puedes borrarlas vaciando los datos del sitio.</p>
+        <p><b>Terceros.</b> Al pulsar un enlace de reserva pasas a la web del proveedor, con su propia política de privacidad. Ellos pueden registrar que llegaste desde aquí para atribuir la comisión.</p>
+        <p><b>Tus derechos.</b> Puedes solicitar acceso, rectificación, supresión, oposición, limitación y portabilidad de tus datos escribiéndonos. También puedes reclamar ante la autoridad de protección de datos de tu país.</p>`,
+  t_co:'Política de cookies',
+  c_co:`<p>Esta web <b>no instala cookies publicitarias ni de analítica propias</b>. Usamos únicamente el almacenamiento local del navegador para recordar tus preferencias (idioma, moneda, tema, favoritos y checklist).</p>
+        <p>Los proveedores a los que te enviamos sí pueden usar cookies de seguimiento para atribuir la comisión de afiliado. Eso ocurre ya en su web y se rige por su política.</p>
+        <p>Puedes borrar todo lo que guardamos desde los ajustes de tu navegador, en «datos de sitios web».</p>`,
+  t_te:'Términos de uso',
+  c_te:`<p>Al usar esta web aceptas estas condiciones. El servicio se ofrece «tal cual», de forma gratuita y sin garantía de disponibilidad ininterrumpida.</p>
+        <p>La información sobre destinos, precios orientativos, mejores épocas e itinerarios tiene <b>carácter informativo</b>. Hacemos lo posible por mantenerla al día, pero no garantizamos su exactitud. Verifica siempre requisitos de entrada, visados y condiciones sanitarias en las fuentes oficiales de tu país y del país de destino antes de reservar.</p>
+        <p>Los itinerarios propuestos son sugerencias de planificación, no un paquete turístico combinado en el sentido de la normativa aplicable: cada servicio se contrata por separado y con su proveedor.</p>
+        <p>No nos hacemos responsables de las decisiones de viaje tomadas a partir de la información aquí publicada, ni del contenido, disponibilidad o condiciones de las webs de terceros enlazadas.</p>
+        <p>Las marcas citadas pertenecen a sus respectivos titulares y se mencionan a título identificativo.</p>`
+},
+en: {
+  titulo:'Legal information', volver:'Back to home', act:'Last updated',
+  t_af:'Affiliate disclosure',
+  c_af:`<p>This site is a <b>travel search and comparison tool</b>, not a travel agency. We do not sell flights, hotels or package holidays, we do not process payments and we are not a party to the contract you sign when you book.</p>
+        <p>When you click a search or booking button we send you to a third-party site (Booking.com, Aviasales/Skyscanner, GetYourGuide, Civitatis, EconomyBookings, Airalo and others). If you book there, that provider pays us an <b>affiliate commission</b>. <b>You pay exactly the same price</b>: the commission comes out of the provider's margin, not your pocket.</p>
+        <p>Prices shown here are <b>indicative</b>, based on typical values, and may differ from the final price. The valid price is always the one shown by the provider at the time of booking.</p>
+        <p>Any issue with a booking (changes, cancellations, refunds) must be handled directly with the provider that sold it to you — they hold your contract and your money.</p>`,
+  t_pr:'Privacy policy',
+  c_pr:`<p>Controller: [YOUR DETAILS: name or company, tax ID and address] · Contact: <span class="mail"></span></p>
+        <p><b>What we collect.</b> This site works without user accounts. What you type into the search box (destination, dates, number of travellers) is used only to build the search link and is not stored on any server of ours.</p>
+        <p>If you write via the contact form, your message opens in your own email client: we receive your name, your email and your message, and use them only to reply.</p>
+        <p>If you subscribe to the newsletter, we store your email for the sole purpose of sending you deals. You can unsubscribe at any time from the link in every email.</p>
+        <p><b>Where your preferences live.</b> Language, currency, theme, favourites and packing list are stored <b>in your own browser</b> (local storage). They never leave your device and you can delete them by clearing site data.</p>
+        <p><b>Third parties.</b> Clicking a booking link takes you to the provider's site, which has its own privacy policy. They may record that you arrived from here in order to attribute the commission.</p>
+        <p><b>Your rights.</b> You may request access, rectification, erasure, objection, restriction and portability of your data by writing to us. You may also complain to your national data protection authority.</p>`,
+  t_co:'Cookie policy',
+  c_co:`<p>This site sets <b>no advertising or first-party analytics cookies</b>. We only use browser local storage to remember your preferences (language, currency, theme, favourites and checklist).</p>
+        <p>The providers we send you to may use tracking cookies to attribute the affiliate commission. That happens on their site and is governed by their policy.</p>
+        <p>You can delete everything we store from your browser settings, under "site data".</p>`,
+  t_te:'Terms of use',
+  c_te:`<p>By using this site you accept these terms. The service is provided "as is", free of charge and with no guarantee of uninterrupted availability.</p>
+        <p>Information about destinations, indicative prices, best seasons and itineraries is <b>for guidance only</b>. We do our best to keep it current but we do not guarantee its accuracy. Always verify entry requirements, visas and health conditions with the official sources of your country and your destination before booking.</p>
+        <p>The itineraries we propose are planning suggestions, not a package holiday under applicable regulations: each service is contracted separately and with its own provider.</p>
+        <p>We are not liable for travel decisions taken on the basis of the information published here, nor for the content, availability or terms of the third-party sites we link to.</p>
+        <p>Trademarks mentioned belong to their respective owners and are used for identification purposes only.</p>`
+},
+de: {
+  titulo:'Rechtliche Hinweise', volver:'Zurück zur Startseite', act:'Zuletzt aktualisiert',
+  t_af:'Affiliate-Hinweis',
+  c_af:`<p>Diese Website ist eine <b>Reisesuchmaschine und ein Vergleichsportal</b>, kein Reisebüro. Wir verkaufen keine Flüge, Hotels oder Pauschalreisen, wickeln keine Zahlungen ab und sind nicht Vertragspartei deiner Buchung.</p>
+        <p>Wenn du auf einen Such- oder Buchungsbutton klickst, leiten wir dich zu einem Drittanbieter weiter (Booking.com, Aviasales/Skyscanner, GetYourGuide, Civitatis, EconomyBookings, Airalo u. a.). Buchst du dort, zahlt uns dieser Anbieter eine <b>Affiliate-Provision</b>. <b>Du zahlst exakt denselben Preis</b>: Die Provision kommt aus der Marge des Anbieters, nicht aus deiner Tasche.</p>
+        <p>Die hier gezeigten Preise sind <b>Richtwerte</b> auf Basis üblicher Kosten und können vom Endpreis abweichen. Gültig ist immer der Preis, den der Anbieter beim Buchen anzeigt.</p>
+        <p>Probleme mit einer Buchung (Änderungen, Stornierungen, Erstattungen) klärst du direkt mit dem Anbieter, der sie dir verkauft hat — dort liegen Vertrag und Geld.</p>`,
+  t_pr:'Datenschutzerklärung',
+  c_pr:`<p>Verantwortlich: [DEINE DATEN: Name bzw. Firma, Steuernummer und Anschrift] · Kontakt: <span class="mail"></span></p>
+        <p><b>Welche Daten wir erheben.</b> Diese Website funktioniert ohne Benutzerkonten. Deine Eingaben in der Suche (Ziel, Daten, Anzahl Reisender) dienen nur dem Aufbau des Suchlinks und werden auf keinem unserer Server gespeichert.</p>
+        <p>Schreibst du über das Kontaktformular, öffnet sich dein eigenes E-Mail-Programm: Wir erhalten Name, E-Mail und Nachricht und nutzen sie ausschließlich zur Antwort.</p>
+        <p>Abonnierst du den Newsletter, speichern wir deine E-Mail-Adresse ausschließlich zum Versand von Angeboten. Abmeldung jederzeit über den Link in jeder E-Mail.</p>
+        <p><b>Wo deine Einstellungen liegen.</b> Sprache, Währung, Design, Favoriten und Packliste werden <b>in deinem Browser</b> gespeichert (Local Storage). Sie verlassen dein Gerät nicht und lassen sich über das Löschen der Website-Daten entfernen.</p>
+        <p><b>Dritte.</b> Über einen Buchungslink gelangst du zur Seite des Anbieters mit eigener Datenschutzerklärung. Dort kann erfasst werden, dass du von hier kamst, um die Provision zuzuordnen.</p>
+        <p><b>Deine Rechte.</b> Auskunft, Berichtigung, Löschung, Widerspruch, Einschränkung und Datenübertragbarkeit kannst du per E-Mail geltend machen. Zudem steht dir eine Beschwerde bei der zuständigen Aufsichtsbehörde offen.</p>`,
+  t_co:'Cookie-Richtlinie',
+  c_co:`<p>Diese Website setzt <b>keine Werbe- oder eigenen Analyse-Cookies</b>. Wir nutzen ausschließlich den lokalen Browserspeicher für deine Einstellungen (Sprache, Währung, Design, Favoriten, Packliste).</p>
+        <p>Die Anbieter, zu denen wir verlinken, können Tracking-Cookies zur Provisionszuordnung setzen. Das geschieht auf deren Seite und nach deren Richtlinie.</p>
+        <p>Alles von uns Gespeicherte kannst du in den Browsereinstellungen unter „Website-Daten" löschen.</p>`,
+  t_te:'Nutzungsbedingungen',
+  c_te:`<p>Mit der Nutzung dieser Website akzeptierst du diese Bedingungen. Das Angebot erfolgt „wie besehen", kostenlos und ohne Garantie ununterbrochener Verfügbarkeit.</p>
+        <p>Angaben zu Zielen, Richtpreisen, besten Reisezeiten und Routen sind <b>unverbindliche Hinweise</b>. Wir bemühen uns um Aktualität, garantieren aber keine Richtigkeit. Prüfe Einreisebestimmungen, Visa und Gesundheitsvorschriften stets bei den offiziellen Stellen deines Landes und des Ziellandes.</p>
+        <p>Die vorgeschlagenen Routen sind Planungsvorschläge, keine Pauschalreise im Sinne der geltenden Vorschriften: Jede Leistung wird einzeln beim jeweiligen Anbieter gebucht.</p>
+        <p>Für Reiseentscheidungen auf Basis dieser Informationen sowie für Inhalte, Verfügbarkeit und Konditionen verlinkter Drittseiten übernehmen wir keine Haftung.</p>
+        <p>Genannte Marken gehören ihren jeweiligen Inhabern und dienen nur der Identifikation.</p>`
+},
+fr: {
+  titulo:'Informations légales', volver:'Retour à l\'accueil', act:'Dernière mise à jour',
+  t_af:'Divulgation d\'affiliation',
+  c_af:`<p>Ce site est un <b>moteur de recherche et comparateur de voyages</b>, pas une agence de voyages. Nous ne vendons ni vols, ni hôtels, ni forfaits, nous ne gérons aucun paiement et nous ne sommes pas partie au contrat que vous signez en réservant.</p>
+        <p>Lorsque vous cliquez sur un bouton de recherche ou de réservation, nous vous envoyons vers un site tiers (Booking.com, Aviasales/Skyscanner, GetYourGuide, Civitatis, EconomyBookings, Airalo, etc.). Si vous réservez là-bas, ce prestataire nous verse une <b>commission d'affiliation</b>. <b>Vous payez exactement le même prix</b> : la commission sort de la marge du prestataire, pas de votre poche.</p>
+        <p>Les prix affichés ici sont <b>indicatifs</b>, calculés sur des valeurs habituelles, et peuvent différer du prix final. Le prix valable est toujours celui affiché par le prestataire au moment de la réservation.</p>
+        <p>Tout incident lié à une réservation (modification, annulation, remboursement) se traite directement avec le prestataire qui vous l'a vendue : c'est lui qui détient votre contrat et votre argent.</p>`,
+  t_pr:'Politique de confidentialité',
+  c_pr:`<p>Responsable : [VOS DONNÉES : nom ou raison sociale, numéro fiscal et adresse] · Contact : <span class="mail"></span></p>
+        <p><b>Données collectées.</b> Ce site fonctionne sans compte utilisateur. Ce que vous saisissez dans la recherche (destination, dates, nombre de voyageurs) sert uniquement à construire le lien de recherche et n'est stocké sur aucun de nos serveurs.</p>
+        <p>Si vous écrivez via le formulaire de contact, votre message s'ouvre dans votre propre logiciel de messagerie : nous recevons votre nom, votre e-mail et votre message, utilisés uniquement pour vous répondre.</p>
+        <p>Si vous vous abonnez à la newsletter, nous conservons votre e-mail à seule fin de vous envoyer des offres. Désinscription à tout moment via le lien présent dans chaque envoi.</p>
+        <p><b>Où sont vos préférences.</b> Langue, devise, thème, favoris et check-list sont enregistrés <b>dans votre navigateur</b> (stockage local). Ils ne quittent pas votre appareil et vous pouvez les effacer en vidant les données du site.</p>
+        <p><b>Tiers.</b> En cliquant sur un lien de réservation, vous passez sur le site du prestataire, doté de sa propre politique. Il peut enregistrer que vous venez d'ici afin d'attribuer la commission.</p>
+        <p><b>Vos droits.</b> Vous pouvez demander l'accès, la rectification, l'effacement, l'opposition, la limitation et la portabilité de vos données en nous écrivant, et introduire une réclamation auprès de l'autorité de protection des données de votre pays.</p>`,
+  t_co:'Politique de cookies',
+  c_co:`<p>Ce site ne dépose <b>aucun cookie publicitaire ni de mesure d'audience propre</b>. Nous utilisons uniquement le stockage local du navigateur pour mémoriser vos préférences (langue, devise, thème, favoris, check-list).</p>
+        <p>Les prestataires vers lesquels nous vous dirigeons peuvent utiliser des cookies de suivi pour attribuer la commission d'affiliation. Cela se produit sur leur site et relève de leur politique.</p>
+        <p>Vous pouvez tout effacer depuis les réglages de votre navigateur, rubrique « données de sites ».</p>`,
+  t_te:'Conditions d\'utilisation',
+  c_te:`<p>En utilisant ce site, vous acceptez ces conditions. Le service est fourni « en l'état », gratuitement et sans garantie de disponibilité continue.</p>
+        <p>Les informations sur les destinations, prix indicatifs, meilleures périodes et itinéraires sont <b>fournies à titre indicatif</b>. Nous faisons de notre mieux pour les tenir à jour sans en garantir l'exactitude. Vérifiez toujours les formalités d'entrée, visas et conditions sanitaires auprès des sources officielles de votre pays et du pays de destination.</p>
+        <p>Les itinéraires proposés sont des suggestions de planification, non un forfait touristique au sens de la réglementation applicable : chaque prestation se réserve séparément auprès de son prestataire.</p>
+        <p>Nous déclinons toute responsabilité quant aux décisions de voyage prises sur la base des informations publiées ici, ainsi qu'au contenu, à la disponibilité ou aux conditions des sites tiers liés.</p>
+        <p>Les marques citées appartiennent à leurs titulaires respectifs et sont mentionnées à titre identificatif.</p>`
+},
+it: {
+  titulo:'Informazioni legali', volver:'Torna alla home', act:'Ultimo aggiornamento',
+  t_af:'Informativa sull\'affiliazione',
+  c_af:`<p>Questo sito è un <b>motore di ricerca e comparatore di viaggi</b>, non un\'agenzia di viaggi. Non vendiamo voli, hotel o pacchetti turistici, non gestiamo pagamenti e non siamo parte del contratto che sottoscrivi prenotando.</p>
+        <p>Quando premi un pulsante di ricerca o prenotazione ti indirizziamo al sito di terzi (Booking.com, Aviasales/Skyscanner, GetYourGuide, Civitatis, EconomyBookings, Airalo e altri). Se prenoti lì, quel fornitore ci riconosce una <b>commissione di affiliazione</b>. <b>Tu paghi esattamente lo stesso prezzo</b>: la commissione esce dal margine del fornitore, non dalle tue tasche.</p>
+        <p>I prezzi indicati qui sono <b>orientativi</b>, calcolati su valori abituali, e possono differire dal prezzo finale. Il prezzo valido è sempre quello mostrato dal fornitore al momento della prenotazione.</p>
+        <p>Qualsiasi problema con una prenotazione (modifiche, cancellazioni, rimborsi) va gestito direttamente con il fornitore che te l\'ha venduta: è lui a detenere il contratto e il denaro.</p>`,
+  t_pr:'Informativa sulla privacy',
+  c_pr:`<p>Titolare: [I TUOI DATI: nome o ragione sociale, partita IVA e indirizzo] · Contatto: <span class="mail"></span></p>
+        <p><b>Dati raccolti.</b> Questo sito funziona senza account utente. Ciò che digiti nella ricerca (destinazione, date, numero di viaggiatori) serve solo a costruire il link di ricerca e non viene salvato su alcun nostro server.</p>
+        <p>Se ci scrivi dal modulo di contatto, il messaggio si apre nel tuo programma di posta: riceviamo nome, email e messaggio, usati solo per risponderti.</p>
+        <p>Se ti iscrivi alla newsletter conserviamo la tua email al solo scopo di inviarti offerte. Puoi cancellarti in qualsiasi momento dal link presente in ogni invio.</p>
+        <p><b>Dove stanno le tue preferenze.</b> Lingua, valuta, tema, preferiti e checklist sono salvati <b>nel tuo browser</b> (archiviazione locale). Non lasciano il tuo dispositivo e puoi eliminarli svuotando i dati del sito.</p>
+        <p><b>Terze parti.</b> Cliccando un link di prenotazione passi al sito del fornitore, con una propria informativa. Può registrare che sei arrivato da qui per attribuire la commissione.</p>
+        <p><b>I tuoi diritti.</b> Puoi chiedere accesso, rettifica, cancellazione, opposizione, limitazione e portabilità scrivendoci, e proporre reclamo all\'autorità garante del tuo Paese.</p>`,
+  t_co:'Politica sui cookie',
+  c_co:`<p>Questo sito <b>non installa cookie pubblicitari né di analisi propri</b>. Usiamo solo l\'archiviazione locale del browser per ricordare le tue preferenze (lingua, valuta, tema, preferiti, checklist).</p>
+        <p>I fornitori verso cui ti indirizziamo possono usare cookie di tracciamento per attribuire la commissione di affiliazione. Questo avviene sul loro sito e secondo la loro politica.</p>
+        <p>Puoi cancellare tutto ciò che salviamo dalle impostazioni del browser, alla voce «dati dei siti».</p>`,
+  t_te:'Termini di utilizzo',
+  c_te:`<p>Usando questo sito accetti questi termini. Il servizio è fornito «così com\'è», gratuitamente e senza garanzia di disponibilità continua.</p>
+        <p>Le informazioni su destinazioni, prezzi orientativi, periodi migliori e itinerari hanno <b>carattere informativo</b>. Facciamo il possibile per tenerle aggiornate ma non ne garantiamo l\'esattezza. Verifica sempre requisiti d\'ingresso, visti e condizioni sanitarie presso le fonti ufficiali del tuo Paese e del Paese di destinazione.</p>
+        <p>Gli itinerari proposti sono suggerimenti di pianificazione, non un pacchetto turistico ai sensi della normativa applicabile: ogni servizio si prenota separatamente presso il rispettivo fornitore.</p>
+        <p>Non rispondiamo delle decisioni di viaggio prese sulla base delle informazioni qui pubblicate, né di contenuti, disponibilità o condizioni dei siti terzi collegati.</p>
+        <p>I marchi citati appartengono ai rispettivi titolari e sono menzionati a scopo identificativo.</p>`
+}
+};
+
+const idiomas = { es:'🇪🇸 Español', en:'🇬🇧 English', de:'🇩🇪 Deutsch', fr:'🇫🇷 Français', it:'🇮🇹 Italiano' };
+const lee = (k, d) => { try { return JSON.parse(localStorage.getItem('voyara_' + k)) ?? d; } catch { return d; } };
+
+let idioma = new URLSearchParams(location.search).get('lang') || lee('idioma', null) || (navigator.language || 'es').slice(0,2);
+if (!L[idioma]) idioma = 'es';
+let tema = lee('tema', 'claro');
+
+function pintar() {
+  const l = L[idioma];
+  document.documentElement.lang = idioma;
+  document.title = CFG.marca + ' — ' + l.titulo;
+  document.getElementById('tituloPagina').textContent = l.titulo;
+  document.getElementById('actualizado').textContent = l.act + ': ' + new Date().toISOString().slice(0,10);
+  document.querySelectorAll('[data-l]').forEach(e => {
+    const v = l[e.dataset.l];
+    if (e.dataset.l.startsWith('c_')) e.innerHTML = v; else e.textContent = v;
+  });
+  document.querySelectorAll('.mail').forEach(e => {
+    e.innerHTML = '<a href="mailto:' + CFG.email + '">' + CFG.email + '</a>';
+  });
+  document.querySelectorAll('.logo span:last-child').forEach(e => e.textContent = CFG.marca);
+}
+
+document.documentElement.dataset.tema = tema;
+document.getElementById('btnTema').textContent = tema === 'oscuro' ? '☀️' : '🌙';
+document.getElementById('btnTema').onclick = () => {
+  tema = tema === 'oscuro' ? 'claro' : 'oscuro';
+  document.documentElement.dataset.tema = tema;
+  document.getElementById('btnTema').textContent = tema === 'oscuro' ? '☀️' : '🌙';
+  localStorage.setItem('voyara_tema', JSON.stringify(tema));
+};
+
+const sel = document.getElementById('selIdioma');
+sel.innerHTML = Object.entries(idiomas).map(([k,v]) => `<option value="${k}" ${k===idioma?'selected':''}>${v}</option>`).join('');
+sel.onchange = e => { idioma = e.target.value; localStorage.setItem('voyara_idioma', JSON.stringify(idioma)); pintar(); };
+
+pintar();
+</script>
+</body>
+</html>

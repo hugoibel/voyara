@@ -1,0 +1,23 @@
+{
+  "name": "Voyara — Vuelos, hoteles y viajes",
+  "short_name": "Voyara",
+  "description": "Comparador de vuelos, hoteles, coches y experiencias de viaje en 5 idiomas.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#f7f9fc",
+  "theme_color": "#0d7d8f",
+  "lang": "es",
+  "categories": ["travel", "lifestyle", "shopping"],
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Ofertas", "url": "./index.html#ofertas" },
+    { "name": "Viajes organizados", "url": "./index.html#viajes" },
+    { "name": "Herramientas", "url": "./index.html#util" }
+  ]
+}
