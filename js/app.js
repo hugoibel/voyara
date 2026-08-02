@@ -187,7 +187,7 @@ function tarjetaDestino(d, oferta) {
 
     <div class="ficha-cab">
       <div>
-        <h3>${esc(d.n)}</h3>
+        <h3><a href="destinos/${S.idioma}/${d.id}.html">${esc(d.n)}</a></h3>
         <div class="lugar rotulo">${esc(pais(d.pais))} · ${t('tp_' + d.tipos[0])}</div>
       </div>
       <div class="precio">

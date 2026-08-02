@@ -4,8 +4,7 @@
 
   <url>
     <loc>https://hugoibel.github.io/voyara/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
+    <changefreq>weekly</changefreq><priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/?lang=es"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/?lang=en"/>
     <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/?lang=de"/>
@@ -15,9 +14,1808 @@
   </url>
 
   <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/es/roma.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/roma.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/roma.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/roma.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/roma.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/roma.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/en/roma.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/roma.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/roma.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/roma.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/roma.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/roma.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/de/roma.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/roma.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/roma.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/roma.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/roma.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/roma.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/fr/roma.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/roma.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/roma.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/roma.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/roma.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/roma.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/it/roma.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/roma.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/roma.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/roma.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/roma.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/roma.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/es/paris.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/paris.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/paris.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/paris.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/paris.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/paris.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/en/paris.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/paris.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/paris.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/paris.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/paris.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/paris.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/de/paris.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/paris.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/paris.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/paris.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/paris.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/paris.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/fr/paris.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/paris.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/paris.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/paris.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/paris.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/paris.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/it/paris.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/paris.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/paris.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/paris.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/paris.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/paris.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/es/santorini.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/santorini.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/santorini.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/santorini.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/santorini.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/santorini.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/en/santorini.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/santorini.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/santorini.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/santorini.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/santorini.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/santorini.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/de/santorini.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/santorini.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/santorini.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/santorini.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/santorini.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/santorini.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/fr/santorini.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/santorini.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/santorini.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/santorini.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/santorini.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/santorini.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/it/santorini.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/santorini.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/santorini.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/santorini.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/santorini.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/santorini.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/es/lisboa.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/lisboa.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/lisboa.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/lisboa.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/lisboa.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/lisboa.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/en/lisboa.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/lisboa.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/lisboa.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/lisboa.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/lisboa.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/lisboa.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/de/lisboa.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/lisboa.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/lisboa.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/lisboa.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/lisboa.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/lisboa.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/fr/lisboa.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/lisboa.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/lisboa.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/lisboa.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/lisboa.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/lisboa.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/it/lisboa.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/lisboa.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/lisboa.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/lisboa.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/lisboa.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/lisboa.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/es/islandia.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/islandia.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/islandia.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/islandia.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/islandia.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/islandia.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/en/islandia.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/islandia.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/islandia.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/islandia.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/islandia.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/islandia.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/de/islandia.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/islandia.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/islandia.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/islandia.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/islandia.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/islandia.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/fr/islandia.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/islandia.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/islandia.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/islandia.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/islandia.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/islandia.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/it/islandia.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/islandia.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/islandia.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/islandia.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/islandia.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/islandia.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/es/amsterdam.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/amsterdam.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/amsterdam.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/amsterdam.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/amsterdam.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/amsterdam.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/en/amsterdam.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/amsterdam.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/amsterdam.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/amsterdam.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/amsterdam.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/amsterdam.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/de/amsterdam.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/amsterdam.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/amsterdam.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/amsterdam.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/amsterdam.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/amsterdam.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/fr/amsterdam.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/amsterdam.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/amsterdam.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/amsterdam.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/amsterdam.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/amsterdam.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/it/amsterdam.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/amsterdam.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/amsterdam.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/amsterdam.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/amsterdam.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/amsterdam.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/es/praga.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/praga.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/praga.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/praga.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/praga.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/praga.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/en/praga.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/praga.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/praga.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/praga.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/praga.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/praga.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/de/praga.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/praga.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/praga.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/praga.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/praga.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/praga.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/fr/praga.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/praga.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/praga.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/praga.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/praga.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/praga.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/it/praga.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/praga.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/praga.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/praga.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/praga.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/praga.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/es/dubrovnik.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/dubrovnik.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/dubrovnik.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/dubrovnik.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/dubrovnik.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/dubrovnik.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/en/dubrovnik.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/dubrovnik.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/dubrovnik.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/dubrovnik.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/dubrovnik.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/dubrovnik.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/de/dubrovnik.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/dubrovnik.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/dubrovnik.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/dubrovnik.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/dubrovnik.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/dubrovnik.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/fr/dubrovnik.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/dubrovnik.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/dubrovnik.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/dubrovnik.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/dubrovnik.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/dubrovnik.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/it/dubrovnik.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/dubrovnik.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/dubrovnik.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/dubrovnik.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/dubrovnik.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/dubrovnik.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/es/noruega.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/noruega.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/noruega.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/noruega.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/noruega.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/noruega.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/en/noruega.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/noruega.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/noruega.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/noruega.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/noruega.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/noruega.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/de/noruega.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/noruega.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/noruega.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/noruega.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/noruega.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/noruega.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/fr/noruega.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/noruega.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/noruega.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/noruega.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/noruega.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/noruega.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/it/noruega.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/noruega.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/noruega.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/noruega.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/noruega.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/noruega.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/es/alpes.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/alpes.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/alpes.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/alpes.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/alpes.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/alpes.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/en/alpes.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/alpes.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/alpes.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/alpes.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/alpes.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/alpes.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/de/alpes.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/alpes.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/alpes.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/alpes.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/alpes.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/alpes.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/fr/alpes.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/alpes.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/alpes.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/alpes.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/alpes.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/alpes.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/it/alpes.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/alpes.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/alpes.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/alpes.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/alpes.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/alpes.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/es/londres.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/londres.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/londres.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/londres.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/londres.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/londres.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/en/londres.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/londres.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/londres.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/londres.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/londres.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/londres.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/de/londres.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/londres.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/londres.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/londres.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/londres.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/londres.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/fr/londres.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/londres.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/londres.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/londres.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/londres.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/londres.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/it/londres.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/londres.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/londres.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/londres.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/londres.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/londres.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/es/canarias.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/canarias.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/canarias.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/canarias.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/canarias.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/canarias.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/en/canarias.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/canarias.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/canarias.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/canarias.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/canarias.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/canarias.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/de/canarias.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/canarias.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/canarias.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/canarias.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/canarias.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/canarias.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/fr/canarias.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/canarias.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/canarias.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/canarias.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/canarias.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/canarias.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/it/canarias.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/canarias.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/canarias.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/canarias.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/canarias.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/canarias.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/es/tokio.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/tokio.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/tokio.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/tokio.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/tokio.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/tokio.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/en/tokio.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/tokio.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/tokio.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/tokio.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/tokio.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/tokio.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/de/tokio.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/tokio.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/tokio.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/tokio.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/tokio.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/tokio.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/fr/tokio.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/tokio.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/tokio.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/tokio.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/tokio.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/tokio.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/it/tokio.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/tokio.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/tokio.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/tokio.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/tokio.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/tokio.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/es/bali.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/bali.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/bali.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/bali.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/bali.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/bali.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/en/bali.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/bali.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/bali.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/bali.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/bali.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/bali.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/de/bali.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/bali.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/bali.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/bali.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/bali.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/bali.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/fr/bali.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/bali.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/bali.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/bali.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/bali.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/bali.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/it/bali.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/bali.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/bali.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/bali.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/bali.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/bali.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/es/bangkok.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/bangkok.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/bangkok.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/bangkok.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/bangkok.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/bangkok.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/en/bangkok.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/bangkok.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/bangkok.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/bangkok.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/bangkok.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/bangkok.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/de/bangkok.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/bangkok.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/bangkok.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/bangkok.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/bangkok.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/bangkok.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/fr/bangkok.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/bangkok.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/bangkok.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/bangkok.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/bangkok.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/bangkok.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/it/bangkok.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/bangkok.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/bangkok.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/bangkok.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/bangkok.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/bangkok.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/es/maldivas.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/maldivas.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/maldivas.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/maldivas.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/maldivas.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/maldivas.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/en/maldivas.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/maldivas.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/maldivas.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/maldivas.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/maldivas.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/maldivas.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/de/maldivas.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/maldivas.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/maldivas.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/maldivas.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/maldivas.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/maldivas.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/fr/maldivas.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/maldivas.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/maldivas.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/maldivas.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/maldivas.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/maldivas.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/it/maldivas.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/maldivas.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/maldivas.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/maldivas.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/maldivas.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/maldivas.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/es/dubai.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/dubai.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/dubai.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/dubai.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/dubai.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/dubai.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/en/dubai.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/dubai.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/dubai.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/dubai.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/dubai.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/dubai.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/de/dubai.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/dubai.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/dubai.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/dubai.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/dubai.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/dubai.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/fr/dubai.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/dubai.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/dubai.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/dubai.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/dubai.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/dubai.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/it/dubai.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/dubai.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/dubai.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/dubai.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/dubai.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/dubai.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/es/vietnam.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/vietnam.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/vietnam.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/vietnam.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/vietnam.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/vietnam.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/en/vietnam.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/vietnam.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/vietnam.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/vietnam.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/vietnam.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/vietnam.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/de/vietnam.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/vietnam.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/vietnam.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/vietnam.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/vietnam.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/vietnam.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/fr/vietnam.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/vietnam.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/vietnam.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/vietnam.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/vietnam.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/vietnam.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/it/vietnam.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/vietnam.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/vietnam.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/vietnam.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/vietnam.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/vietnam.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/es/kioto.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/kioto.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/kioto.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/kioto.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/kioto.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/kioto.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/en/kioto.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/kioto.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/kioto.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/kioto.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/kioto.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/kioto.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/de/kioto.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/kioto.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/kioto.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/kioto.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/kioto.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/kioto.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/fr/kioto.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/kioto.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/kioto.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/kioto.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/kioto.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/kioto.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/it/kioto.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/kioto.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/kioto.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/kioto.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/kioto.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/kioto.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/es/srilanka.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/srilanka.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/srilanka.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/srilanka.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/srilanka.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/srilanka.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/en/srilanka.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/srilanka.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/srilanka.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/srilanka.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/srilanka.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/srilanka.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/de/srilanka.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/srilanka.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/srilanka.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/srilanka.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/srilanka.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/srilanka.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/fr/srilanka.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/srilanka.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/srilanka.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/srilanka.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/srilanka.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/srilanka.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/it/srilanka.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/srilanka.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/srilanka.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/srilanka.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/srilanka.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/srilanka.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/es/petra.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/petra.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/petra.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/petra.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/petra.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/petra.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/en/petra.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/petra.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/petra.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/petra.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/petra.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/petra.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/de/petra.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/petra.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/petra.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/petra.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/petra.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/petra.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/fr/petra.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/petra.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/petra.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/petra.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/petra.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/petra.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/it/petra.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/petra.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/petra.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/petra.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/petra.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/petra.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/es/india.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/india.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/india.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/india.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/india.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/india.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/en/india.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/india.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/india.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/india.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/india.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/india.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/de/india.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/india.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/india.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/india.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/india.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/india.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/fr/india.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/india.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/india.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/india.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/india.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/india.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/it/india.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/india.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/india.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/india.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/india.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/india.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/es/nyc.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/nyc.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/nyc.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/nyc.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/nyc.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/nyc.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/en/nyc.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/nyc.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/nyc.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/nyc.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/nyc.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/nyc.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/de/nyc.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/nyc.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/nyc.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/nyc.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/nyc.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/nyc.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/fr/nyc.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/nyc.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/nyc.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/nyc.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/nyc.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/nyc.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/it/nyc.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/nyc.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/nyc.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/nyc.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/nyc.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/nyc.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/es/cancun.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/cancun.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/cancun.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/cancun.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/cancun.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/cancun.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/en/cancun.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/cancun.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/cancun.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/cancun.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/cancun.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/cancun.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/de/cancun.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/cancun.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/cancun.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/cancun.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/cancun.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/cancun.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/fr/cancun.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/cancun.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/cancun.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/cancun.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/cancun.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/cancun.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/it/cancun.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/cancun.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/cancun.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/cancun.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/cancun.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/cancun.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/es/machupicchu.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/machupicchu.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/machupicchu.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/machupicchu.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/machupicchu.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/machupicchu.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/en/machupicchu.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/machupicchu.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/machupicchu.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/machupicchu.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/machupicchu.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/machupicchu.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/de/machupicchu.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/machupicchu.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/machupicchu.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/machupicchu.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/machupicchu.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/machupicchu.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/fr/machupicchu.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/machupicchu.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/machupicchu.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/machupicchu.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/machupicchu.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/machupicchu.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/it/machupicchu.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/machupicchu.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/machupicchu.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/machupicchu.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/machupicchu.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/machupicchu.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/es/patagonia.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/patagonia.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/patagonia.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/patagonia.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/patagonia.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/patagonia.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/en/patagonia.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/patagonia.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/patagonia.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/patagonia.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/patagonia.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/patagonia.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/de/patagonia.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/patagonia.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/patagonia.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/patagonia.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/patagonia.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/patagonia.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/fr/patagonia.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/patagonia.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/patagonia.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/patagonia.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/patagonia.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/patagonia.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/it/patagonia.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/patagonia.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/patagonia.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/patagonia.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/patagonia.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/patagonia.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/es/rio.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/rio.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/rio.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/rio.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/rio.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/rio.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/en/rio.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/rio.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/rio.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/rio.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/rio.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/rio.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/de/rio.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/rio.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/rio.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/rio.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/rio.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/rio.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/fr/rio.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/rio.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/rio.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/rio.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/rio.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/rio.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/it/rio.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/rio.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/rio.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/rio.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/rio.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/rio.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/es/costarica.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/costarica.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/costarica.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/costarica.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/costarica.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/costarica.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/en/costarica.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/costarica.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/costarica.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/costarica.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/costarica.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/costarica.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/de/costarica.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/costarica.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/costarica.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/costarica.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/costarica.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/costarica.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/fr/costarica.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/costarica.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/costarica.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/costarica.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/costarica.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/costarica.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/it/costarica.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/costarica.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/costarica.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/costarica.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/costarica.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/costarica.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/es/habana.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/habana.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/habana.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/habana.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/habana.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/habana.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/en/habana.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/habana.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/habana.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/habana.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/habana.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/habana.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/de/habana.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/habana.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/habana.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/habana.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/habana.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/habana.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/fr/habana.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/habana.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/habana.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/habana.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/habana.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/habana.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/it/habana.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/habana.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/habana.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/habana.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/habana.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/habana.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/es/cartagena.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/cartagena.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/cartagena.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/cartagena.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/cartagena.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/cartagena.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/en/cartagena.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/cartagena.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/cartagena.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/cartagena.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/cartagena.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/cartagena.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/de/cartagena.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/cartagena.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/cartagena.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/cartagena.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/cartagena.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/cartagena.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/fr/cartagena.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/cartagena.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/cartagena.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/cartagena.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/cartagena.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/cartagena.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/it/cartagena.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/cartagena.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/cartagena.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/cartagena.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/cartagena.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/cartagena.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/es/marrakech.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/marrakech.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/marrakech.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/marrakech.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/marrakech.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/marrakech.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/en/marrakech.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/marrakech.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/marrakech.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/marrakech.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/marrakech.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/marrakech.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/de/marrakech.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/marrakech.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/marrakech.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/marrakech.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/marrakech.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/marrakech.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/fr/marrakech.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/marrakech.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/marrakech.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/marrakech.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/marrakech.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/marrakech.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/it/marrakech.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/marrakech.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/marrakech.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/marrakech.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/marrakech.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/marrakech.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/es/egipto.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/egipto.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/egipto.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/egipto.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/egipto.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/egipto.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/en/egipto.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/egipto.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/egipto.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/egipto.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/egipto.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/egipto.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/de/egipto.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/egipto.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/egipto.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/egipto.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/egipto.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/egipto.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/fr/egipto.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/egipto.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/egipto.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/egipto.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/egipto.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/egipto.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/it/egipto.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/egipto.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/egipto.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/egipto.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/egipto.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/egipto.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/es/safari.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/safari.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/safari.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/safari.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/safari.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/safari.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/en/safari.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/safari.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/safari.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/safari.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/safari.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/safari.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/de/safari.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/safari.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/safari.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/safari.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/safari.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/safari.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/fr/safari.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/safari.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/safari.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/safari.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/safari.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/safari.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/it/safari.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/safari.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/safari.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/safari.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/safari.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/safari.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/es/ciudadcabo.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/ciudadcabo.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/ciudadcabo.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/ciudadcabo.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/ciudadcabo.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/ciudadcabo.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/en/ciudadcabo.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/ciudadcabo.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/ciudadcabo.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/ciudadcabo.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/ciudadcabo.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/ciudadcabo.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/de/ciudadcabo.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/ciudadcabo.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/ciudadcabo.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/ciudadcabo.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/ciudadcabo.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/ciudadcabo.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/fr/ciudadcabo.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/ciudadcabo.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/ciudadcabo.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/ciudadcabo.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/ciudadcabo.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/ciudadcabo.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/it/ciudadcabo.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/ciudadcabo.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/ciudadcabo.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/ciudadcabo.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/ciudadcabo.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/ciudadcabo.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/es/sidney.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/sidney.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/sidney.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/sidney.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/sidney.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/sidney.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/en/sidney.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/sidney.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/sidney.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/sidney.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/sidney.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/sidney.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/de/sidney.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/sidney.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/sidney.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/sidney.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/sidney.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/sidney.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/fr/sidney.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/sidney.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/sidney.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/sidney.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/sidney.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/sidney.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/it/sidney.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/sidney.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/sidney.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/sidney.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/sidney.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/sidney.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/es/nuevazelanda.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/nuevazelanda.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/nuevazelanda.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/nuevazelanda.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/nuevazelanda.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/nuevazelanda.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/en/nuevazelanda.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/nuevazelanda.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/nuevazelanda.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/nuevazelanda.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/nuevazelanda.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/nuevazelanda.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/de/nuevazelanda.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/nuevazelanda.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/nuevazelanda.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/nuevazelanda.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/nuevazelanda.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/nuevazelanda.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/fr/nuevazelanda.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/nuevazelanda.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/nuevazelanda.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/nuevazelanda.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/nuevazelanda.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/nuevazelanda.html"/>
+  </url>
+
+  <url>
+    <loc>https://hugoibel.github.io/voyara/destinos/it/nuevazelanda.html</loc>
+    <changefreq>monthly</changefreq><priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="es" href="https://hugoibel.github.io/voyara/destinos/es/nuevazelanda.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://hugoibel.github.io/voyara/destinos/en/nuevazelanda.html"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://hugoibel.github.io/voyara/destinos/de/nuevazelanda.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://hugoibel.github.io/voyara/destinos/fr/nuevazelanda.html"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://hugoibel.github.io/voyara/destinos/it/nuevazelanda.html"/>
+  </url>
+
+  <url>
     <loc>https://hugoibel.github.io/voyara/legal.html</loc>
-    <changefreq>yearly</changefreq>
-    <priority>0.3</priority>
+    <changefreq>yearly</changefreq><priority>0.3</priority>
   </url>
 
 </urlset>
