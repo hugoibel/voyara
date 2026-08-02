@@ -19,7 +19,9 @@ const CFG = {
   // 👉 ATAJO: date de alta SOLO en Travelpayouts (travelpayouts.com).
   //    Con una sola cuenta tienes vuelos, hoteles, coches, seguros y eSIM.
   afiliados: {
-    marker: '557823',      // ✅ Travelpayouts (Partner ID) — vuelos, hoteles, coches, seguros, eSIM
+    marker: '759569',      // ✅ Travelpayouts (Partner ID de la cuenta) — vuelos, hoteles, coches, seguros, eSIM
+                           //    OJO: NO es el 557823 del nombre del script de Drive (js/cookies.js);
+                           //    ese identifica la instalación de Drive, no tu cuenta. Son distintos.
     booking_aid: '',       // Booking.com Partner: tu AID
     gyg_partner: '',       // GetYourGuide: tu partner_id
     civitatis_id: '',      // Civitatis: tu código de afiliado
@@ -40,7 +42,7 @@ const CFG = {
 
   // ---------- AJUSTES ----------
   refrescarTasas: true,   // intenta actualizar las tasas al abrir (si falla, usa las de arriba)
-  version: '1.2'
+  version: '1.3'
 };
 
 // ============================================================

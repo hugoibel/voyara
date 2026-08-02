@@ -3,7 +3,7 @@
 //  ⚠️ SUBE LA VERSIÓN cada vez que cambies un archivo,
 //     o los visitantes seguirán viendo la versión vieja.
 // ============================================================
-const VERSION = 'voyara-v1.2';
+const VERSION = 'voyara-v1.3';
 
 const ARCHIVOS = [
   './',
