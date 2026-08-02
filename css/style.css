@@ -386,6 +386,34 @@ button, input, select, textarea { font: inherit; color: inherit; }
 }
 .aviso.ver { transform: translateX(-50%) translateY(0); }
 
+/* ---------------- AVISO DE COOKIES ---------------- */
+.ck {
+  position: fixed; left: 50%; bottom: 0; z-index: 400;
+  width: min(880px, calc(100% - 24px));
+  transform: translateX(-50%) translateY(120%);
+  transition: transform .32s cubic-bezier(.2,.8,.3,1);
+  background: var(--bg2); border: 1px solid var(--borde); border-bottom: 0;
+  border-radius: var(--r) var(--r) 0 0; box-shadow: var(--sombra-lg);
+  padding: 18px 22px; display: flex; align-items: center; gap: 20px; flex-wrap: wrap;
+}
+.ck.ver { transform: translateX(-50%) translateY(0); }
+.ck-txt { flex: 1; min-width: 240px; }
+.ck-txt strong { display: block; font-size: .95rem; margin-bottom: 3px; }
+.ck-txt p { margin: 0; font-size: .84rem; color: var(--txt2); line-height: 1.5; }
+.ck-btns { display: flex; gap: 8px; flex-shrink: 0; }
+/* Los dos botones pesan lo mismo a propósito: la norma prohíbe
+   esconder el "Rechazar" detrás de un diseño más flojo. */
+.ck-btns .btn { min-width: 108px; }
+
+@media (max-width: 560px) {
+  .ck { padding: 16px; gap: 14px; }
+  .ck-btns { width: 100%; }
+  .ck-btns .btn { flex: 1; }
+}
+
+/* Que el botón de WhatsApp no se solape con el aviso */
+.ck.ver ~ .wa { bottom: 150px; }
+
 /* ---------------- RESPONSIVE ---------------- */
 @media (max-width: 900px) {
   .pie-rejilla { grid-template-columns: 1fr 1fr; gap: 24px; }

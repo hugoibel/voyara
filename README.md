@@ -200,7 +200,26 @@ de constancia, no de una noche.
 
 ---
 
-## 7. Aviso legal importante
+## 7. Cookies y consentimiento
+
+El script de Travelpayouts (Drive) **no se carga hasta que el visitante pulsa "Aceptar"** en el aviso
+de abajo. Si rechaza, no se carga nunca y esa visita no genera comisión: es el precio de cumplir la
+normativa europea, que exige el consentimiento **antes** de instalar cookies de seguimiento.
+
+Vive todo en **`js/cookies.js`**, con sus textos en los 5 idiomas. El snippet oficial de Travelpayouts
+está ahí dentro intacto — si algún día cambias de red de afiliados, se sustituye en la función
+`cargarTravelpayouts()` y nada más.
+
+El visitante puede cambiar de opinión desde el enlace **"Preferencias de cookies"** del pie.
+
+> Si tocas `js/cookies.js`, comprueba que sigue cumpliendo:
+> ```bash
+> npm install jsdom     # única dependencia del proyecto, y solo para el test
+> node test_cookies.js
+> ```
+> Prueba los seis escenarios (visitante nuevo, acepta, rechaza, vuelve, cambia de opinión, idiomas).
+
+## 8. Aviso legal importante
 
 `legal.html` trae aviso de afiliados, privacidad, cookies y términos en los 5 idiomas.
 
